@@ -1,0 +1,361 @@
+:root {
+  --maroon: #7a1416;
+  --maroon-dark: #5c0f10;
+  --gold: #c9a227;
+  --gold-light: #e0bc4a;
+  --cream: #f5f1e6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cinzel", serif;
+  color: #222;
+}
+
+/* ---------- Top brand bar ---------- */
+.brand-header {
+  background-color: #760000;
+  color: var(--cream);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.brand-header .brand-left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.brand-header .seal {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--cream);
+  border: 2px solid var(--gold);
+  flex-shrink: 0;
+}
+
+.brand-logo img {
+  width: auto;
+  height: 100px;
+}
+
+/* ---------- Utility bar (social icons) ---------- */
+.utility-bar {
+  background: rgba(40, 40, 40, 0.9);
+  color: var(--cream);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 40px;
+  font-size: 12px;
+}
+
+.utility-bar .social-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.utility-bar .social-icons a {
+  color: var(--cream);
+  text-decoration: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.utility-bar .social-icons a:hover {
+  background: white;
+  color: var(--maroon-dark);
+}
+
+/* ---------- Conference banner ---------- */
+.banner {
+  width: 100%;
+  line-height: 0;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ---------- Keydates / Fees pill buttons ---------- */
+.header-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 18px 0;
+  background: var(--cream);
+}
+
+.btn-pill {
+  background: var(--maroon);
+  color: var(--cream);
+  text-decoration: none;
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  padding: 10px 26px;
+  border-radius: 999px;
+  border: 1px solid var(--gold);
+  transition: background 0.2s ease;
+}
+
+.btn-pill:hover {
+  background: var(--maroon-dark);
+}
+
+/* ---------- Page content wrapper ---------- */
+.page-content {
+  width: 100%;
+  margin: 0;
+  padding: 8px 32px 40px;
+}
+
+.section-title {
+  font-family: "Cinzel", serif;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  color: #222;
+  margin: 32px 0 16px;
+}
+
+/* ---------- Keynote speaker ---------- */
+.keynote-card {
+  display: flex;
+  gap: 24px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.keynote-photo {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+  background: #e2e2e2;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keynote-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 12px;
+}
+
+.keynote-bio {
+  flex: 1;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.9;
+  color: #444;
+}
+
+.keynote-bio p {
+  margin: 0 0 6px;
+}
+
+.keynote-name {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  color: #222;
+  margin-top: 14px !important;
+}
+
+.keynote-title {
+  font-size: 12px;
+  color: #666;
+}
+
+/* ---------- Plenary speakers ---------- */
+.plenary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  text-align: center;
+}
+
+.plenary-label {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.plenary-photo {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background: #e2e2e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.plenary-photo img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.plenary-name {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0;
+  color: #222;
+}
+
+.plenary-title {
+  font-size: 11px;
+  color: #666;
+  margin: 2px 0 0;
+}
+
+/* ---------- Accordion-style link lists ---------- */
+.accordion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.accordion-item {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.accordion-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.accordion-trigger:hover,
+.accordion-item.is-open .accordion-trigger {
+  background: #ccfacc;
+}
+
+.accordion-arrow {
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  margin-left: 12px;
+  transition: transform 0.2s ease;
+}
+
+.accordion-item.is-open .accordion-arrow {
+  transform: rotate(180deg);
+}
+
+.accordion-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.25s ease;
+}
+
+.accordion-panel-inner {
+  padding: 0 16px 14px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #444;
+}
+
+.accordion-item.is-open .accordion-panel {
+  max-height: 400px;
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  background: #2b2b2b;
+  margin-top: 40px;
+}
+
+.footer-top {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 32px;
+}
+
+.footer-seals {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-seal {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.footer-copy {
+  flex: 1;
+  margin: 0;
+  font-size: 11px;
+  color: var(--cream);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.footer-privacy {
+  font-size: 11px;
+  color: var(--cream);
+  text-decoration: underline;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 700px) {
+  .plenary-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .keynote-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
