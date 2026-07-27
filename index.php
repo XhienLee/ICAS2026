@@ -62,32 +62,60 @@
 
         <section class="plenary-section">
             <h2 class="section-title">Plenary Speakers</h2>
-            <div class="plenary-grid">
-                <div class="plenary-card">
-                    <div class="plenary-label">Natural Sciences</div>
-                    <div class="plenary-photo"><img src="logo/cas.png" alt="Natural Sciences Speaker"></div>
-                    <p class="plenary-name">[NAME]</p>
-                    <p class="plenary-title">[title/position]</p>
-                </div>
-                <div class="plenary-card">
-                    <div class="plenary-label">Mathematics and Statistics</div>
-                    <div class="plenary-photo"><img src="logo/cas.png" alt="Mathematics and Statistics Speaker"></div>
-                    <p class="plenary-name">[NAME]</p>
-                    <p class="plenary-title">[title/position]</p>
-                </div>
-                <div class="plenary-card">
-                    <div class="plenary-label">Social Sciences</div>
-                    <div class="plenary-photo"><img src="logo/cas.png" alt="Social Sciences Speaker"></div>
-                    <p class="plenary-name">[NAME]</p>
-                    <p class="plenary-title">[title/position]</p>
-                </div>
-                <div class="plenary-card">
-                    <div class="plenary-label">Language and Literature</div>
-                    <div class="plenary-photo"><img src="logo/cas.png" alt="Language and Literature Speaker"></div>
-                    <p class="plenary-name">[NAME]</p>
-                    <p class="plenary-title">[title/position]</p>
-                </div>
-            </div>
+            <div class="category-tabs" role="tablist">
+  <button class="category-tab is-active" data-target="natural-sciences" role="tab">NATURAL SCIENCES</button>
+  <button class="category-tab" data-target="math-stats" role="tab">MATHEMATICS and STATISTICS</button>
+  <button class="category-tab" data-target="social-sciences" role="tab">SOCIAL SCIENCES</button>
+  <button class="category-tab" data-target="language-lit" role="tab">LANGUAGE and LITERATURE</button>
+</div>
+ 
+<!-- Natural Sciences panel -->
+<div class="plenary-panel is-active" id="natural-sciences">
+  <div class="keynote-card">
+    <div class="keynote-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Dr. Irma Tandingan de Ley"></div>
+    <p class="keynote-name">DR. IRMA TANDINGAN DE LEY</p>
+    <p class="keynote-title">Associate Project Scientist, University of California Riverside</p>
+    <div class="keynote-bio">
+      <p>Dr. Tandingan de Ley is Balik Scientist, and is Associate Project Scientist at the University of California Riverside (UCR). She specializes in nematology, nematode taxonomy, systematics, phylogeny, and biological gastropods.</p>
+    </div>
+  </div>
+</div>
+ 
+<!-- Mathematics and Statistics panel -->
+<div class="plenary-panel" id="math-stats">
+  <div class="keynote-card">
+    <div class="keynote-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Speaker name"></div>
+    <p class="keynote-name">DR. JUAN DELA CRUZ</p>
+    <p class="keynote-title">Professor of Statistics, University of the Philippines</p>
+    <div class="keynote-bio">
+      <p>Replace this bio with the Mathematics and Statistics plenary speaker's details.</p>
+    </div>
+  </div>
+</div>
+ 
+<!-- Social Sciences panel -->
+<div class="plenary-panel" id="social-sciences">
+  <div class="keynote-card">
+    <div class="keynote-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Speaker name"></div>
+    <p class="keynote-name">DR. MARIA SANTOS</p>
+    <p class="keynote-title">Professor of Sociology, Ateneo de Manila University</p>
+    <div class="keynote-bio">
+      <p>Replace this bio with the Social Sciences plenary speaker's details.</p>
+    </div>
+  </div>
+</div>
+ 
+<!-- Language and Literature panel -->
+<div class="plenary-panel" id="language-lit">
+  <div class="keynote-card">
+    <div class="keynote-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Speaker name"></div>
+    <p class="keynote-name">DR. ANA REYES</p>
+    <p class="keynote-title">Professor of Literature, De La Salle University</p>
+    <div class="keynote-bio">
+      <p>Replace this bio with the Language and Literature plenary speaker's details.</p>
+    </div>
+  </div>
+</div>
         </section>
 
         <section class="accordion-section" id="about">
@@ -235,6 +263,18 @@
         document.querySelectorAll('.accordion-trigger').forEach(function (trigger) {
             trigger.addEventListener('click', function () {
                 trigger.closest('.accordion-item').classList.toggle('is-open');
+            });
+        });
+
+        document.querySelectorAll('.category-tab').forEach(function (tab) {
+            tab.addEventListener('click', function () {
+                // Deactivate all tabs and panels
+                document.querySelectorAll('.category-tab').forEach(function (t) { t.classList.remove('is-active'); });
+                document.querySelectorAll('.plenary-panel').forEach(function (p) { p.classList.remove('is-active'); });
+ 
+                // Activate the clicked tab and its matching panel
+                tab.classList.add('is-active');
+                document.getElementById(tab.dataset.target).classList.add('is-active');
             });
         });
     </script>
