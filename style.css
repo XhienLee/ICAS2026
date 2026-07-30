@@ -190,23 +190,20 @@ body {
 }
 
 /* ---------- Plenary speakers ---------- */
-.plenary-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+.plenary-card {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.plenary-profile {
+  flex: 0 0 220px;
   text-align: center;
 }
 
-.plenary-label {
-  font-family: "Segoe UI", Arial, sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  margin-bottom: 10px;
-}
-
 .plenary-photo {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto 10px;
   border-radius: 50%;
   background: #e2e2e2;
@@ -228,12 +225,23 @@ body {
   font-size: 12px;
   margin: 0;
   color: #222;
+  text-align: center;
 }
 
 .plenary-title {
   font-size: 11px;
   color: #666;
   margin: 2px 0 0;
+  text-align: center;
+}
+
+.plenary-bio {
+  flex: 1;
+  min-width: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.9;
+  color: #444;
 }
 
 /* ---------- Category tab bar ---------- */
@@ -395,8 +403,11 @@ body {
 
 /* ---------- Responsive ---------- */
 @media (max-width: 700px) {
-  .plenary-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .plenary-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-height: none;
+    text-align: center;
   }
 
   .keynote-card {
