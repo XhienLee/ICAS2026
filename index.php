@@ -71,11 +71,13 @@
  
 <!-- Natural Sciences panel -->
 <div class="plenary-panel is-active" id="natural-sciences">
-  <div class="keynote-card">
-    <div class="keynote-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Dr. Irma Tandingan de Ley"></div>
-    <p class="keynote-name">DR. IRMA TANDINGAN DE LEY</p>
-    <p class="keynote-title">Associate Project Scientist, University of California Riverside</p>
-    <div class="keynote-bio">
+  <div class="plenary-card">
+    <div class="plenary-profile">
+        <div class="plenary-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Dr. Irma Tandingan de Ley"></div>
+        <p class="plenary-name">DR. IRMA TANDINGAN DE LEY</p>
+        <p class="plenary-title">Associate Project Scientist, University of California Riverside</p>
+    </div>
+    <div class="plenary-bio">
       <p>Dr. Tandingan de Ley is Balik Scientist, and is Associate Project Scientist at the University of California Riverside (UCR). She specializes in nematology, nematode taxonomy, systematics, phylogeny, and biological gastropods.</p>
     </div>
   </div>
@@ -83,11 +85,13 @@
  
 <!-- Mathematics and Statistics panel -->
 <div class="plenary-panel" id="math-stats">
-  <div class="keynote-card">
-    <div class="keynote-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Speaker name"></div>
-    <p class="keynote-name">DR. JUAN DELA CRUZ</p>
-    <p class="keynote-title">Professor of Statistics, University of the Philippines</p>
-    <div class="keynote-bio">
+  <div class="plenary-card">
+    <div class="plenary-profile">
+        <div class="plenary-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Speaker name"></div>
+        <p class="plenary-name">DR. JUAN DELA CRUZ</p>
+        <p class="plenary-title">Professor of Statistics, University of the Philippines</p>
+    </div>
+    <div class="plenary-bio">
       <p>Replace this bio with the Mathematics and Statistics plenary speaker's details.</p>
     </div>
   </div>
@@ -95,11 +99,13 @@
  
 <!-- Social Sciences panel -->
 <div class="plenary-panel" id="social-sciences">
-  <div class="keynote-card">
-    <div class="keynote-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Speaker name"></div>
-    <p class="keynote-name">DR. MARIA SANTOS</p>
-    <p class="keynote-title">Professor of Sociology, Ateneo de Manila University</p>
-    <div class="keynote-bio">
+  <div class="plenary-card">
+    <div class="plenary-profile">
+        <div class="plenary-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Speaker name"></div>
+        <p class="plenary-name">DR. MARIA SANTOS</p>
+        <p class="plenary-title">Professor of Sociology, Ateneo de Manila University</p>
+    </div>
+    <div class="plenary-bio">
       <p>Replace this bio with the Social Sciences plenary speaker's details.</p>
     </div>
   </div>
@@ -107,11 +113,13 @@
  
 <!-- Language and Literature panel -->
 <div class="plenary-panel" id="language-lit">
-  <div class="keynote-card">
-    <div class="keynote-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Speaker name"></div>
-    <p class="keynote-name">DR. ANA REYES</p>
-    <p class="keynote-title">Professor of Literature, De La Salle University</p>
-    <div class="keynote-bio">
+  <div class="plenary-card">
+    <div class="plenary-profile">
+        <div class="plenary-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Speaker name"></div>
+        <p class="plenary-name">DR. ANA REYES</p>
+        <p class="plenary-title">Professor of Literature, De La Salle University</p>
+    </div>
+    <div class="plenary-bio">
       <p>Replace this bio with the Language and Literature plenary speaker's details.</p>
     </div>
   </div>
