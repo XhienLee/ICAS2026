@@ -200,6 +200,7 @@ body {
   display: flex;
   gap: 40px;
   align-items: flex-start;
+  padding: 1%;
 }
 
 .plenary-profile {
@@ -222,7 +223,6 @@ body {
 .plenary-photo img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
 }
 
 .plenary-name {
@@ -243,11 +243,11 @@ body {
 
 .plenary-bio {
   flex: 1;
-  min-width: 0;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 13px;
   line-height: 1.9;
   color: #444;
+  margin-top: 4%;
   text-align: justify;
 }
 
