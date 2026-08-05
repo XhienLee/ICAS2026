@@ -103,12 +103,24 @@
 <div class="plenary-panel" id="social-sciences">
   <div class="plenary-card">
     <div class="plenary-profile">
-        <div class="plenary-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Speaker name"></div>
-        <p class="plenary-name">DR. MARIA SANTOS</p>
-        <p class="plenary-title">Professor of Sociology, Ateneo de Manila University</p>
+        <div class="plenary-photo"><img src="speakers/aurelio.jpg" alt="Speaker name"></div>
+        <p class="plenary-name">Dr. Auerelio S. Agcaoili</p>
+        <p class="plenary-title">Chair, Department of Indo-Pacific langaugeges and Literatures, University of Hawaii at Manoa</p>
     </div>
     <div class="plenary-bio">
-      <p>Replace this bio with the Social Sciences plenary speaker's details.</p>
+      <p>Aurelio Solver Agcaoili, PhD is chair of the Department of Indo-Pacific Languages and Literatures, University of Hawaii at Manoa and president of NAKEM Conferences and chair of NAKEM Consortium. A recipient of the United State Fulbright Scholarship, he taught as a visiting lecturer at Saint Louis University’s School of Advanced Studies. </p>
+      <P>He has received several commendations, prizes, and grants from the US and the Philippines, including awards for his work in creative writing, education, research, and communication. He holds degrees in business administration, philosophy, and classical studies. He teaches ethics and writing intensive-designated courses. For a time, he taught public policy and related courses. </p>
+    </div>
+  </div>
+  <div class="plenary-card">
+    <div class="plenary-profile">
+        <div class="plenary-photo"><img src="speakers/AI.png" alt="Speaker name"></div>
+        <p class="plenary-name">Dr. Al Saggaf Mohammed Ali Abdellah</p>
+        <p class="plenary-title">Asst. Prof, English Language and Literature, Xiamen University Malaysia</p>
+    </div>
+    <div class="plenary-bio">
+      <p>Dr. Al Saggaf Mohammed Ali Abdellah is an Assistant Professor in the Department of English and Linguistics at Xiamen University Malaysia (XMUM). He earned his PhD in Linguistics from Universiti Sains Malaysia (USM) and specializes in applied linguistics, syntax, and structural language studies.</p>
+      <p>His research primarily focuses on syntactic analysis, sentence structures, and language acquisition, with a particular emphasis on English and Arabic linguistics. Dr. Al Saggaf has authored numerous peer-reviewed articles in international indexed journals, contributing valuable insights to modern linguistic frameworks and cross-linguistic analysis. Alongside his active research agenda, he is dedicated to undergraduate and postgraduate teaching, thesis supervision, and academic reviewing for international publications. </p>
     </div>
   </div>
 </div>
@@ -117,12 +129,24 @@
 <div class="plenary-panel" id="language-lit">
   <div class="plenary-card">
     <div class="plenary-profile">
-        <div class="plenary-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Speaker name"></div>
-        <p class="plenary-name">DR. ANA REYES</p>
-        <p class="plenary-title">Professor of Literature, De La Salle University</p>
+        <div class="plenary-photo"><img src="speakers/mohammed.png" alt="Speaker name"></div>
+        <p class="plenary-name">Dr. Mohammed Al-alaqad</p>
+        <p class="plenary-title">Assistant Professor, Universiti Malaya, Malaysia</p>
     </div>
     <div class="plenary-bio">
-      <p>Replace this bio with the Language and Literature plenary speaker's details.</p>
+      <p>Dr. Al-Alaqad is a renowned scholar in translation studies, applied linguistics, and AI-driven language education. He is currently an Assistant Professor at the Faculty of Languages and Linguistics, Universiti Malaya, Malaysia and serves as President and CEO of the Asian Federation of Translators and Interpreters (AFTI), Malaysia.</p>
+      <p>Dr. Al-Aqad is a professional conference interpreter who has participated in more than 150 international conferences, merging theoretical knowledge with practical application. His research explored the integration of artificial intelligence in translation, multilingualism, digital literacy, and language communication, underscoring how innovation continues to reshape linguistic education and discourses globally.</p>
+    </div>
+  </div>
+  <div class="plenary-card">
+    <div class="plenary-profile">
+        <div class="plenary-photo"><img src="speakers/nasirin.png" alt="Speaker name"></div>
+        <p class="plenary-name">Dr. Nasirin Abdillah</p>
+        <p class="plenary-title">College of Creative Arts, University Teknoloji Mara, Malaysia</p>
+    </div>
+    <div class="plenary-bio">
+      <p>Dr. Nasirin Abdillah is an Associate Professor at the Faculty of Film, Theatre and Animation (FiTA), Universiti Teknologi MARA (UiTM), Shah Alam, Malaysia. He holds a PhD from the University of Wollongong, Australia, where his doctoral work explored themes intersecting image-i-nation, fictocriticism, and Malay myth. </p>
+      <p>His scholarly research focuses on the creative arts, media, semiotics, socio-cultural representations, and pedagogical approaches in higher education. Dr. Nasirin has authored numerous academic publications covering topics such as Malay cultural symbols, film and media studies, and learner-driven pedagogy. In addition to his research contributions, he remains actively involved in academic writing and peer review across international scholarly journals.</p>
     </div>
   </div>
 </div>
@@ -172,7 +196,7 @@
 
             <ul>
                 <li><strong>Date:</strong> November 27–28, 2026</li>
-                <li><strong>Venue:</strong> TBA</li>
+                <li><strong>Venue:</strong> World Palace Hotel</li>
                 <li><strong>Location:</strong> Davao City, Philippines</li>
                 <li><strong>Format:</strong> Hybrid Conference (On-site and Online Participation)</li>
             </ul>
@@ -184,7 +208,7 @@
                 <li>Language and Literature</li>
                 <li>Social Sciences</li>
                 <li>Interdisciplinary Arts and Sciences Research</li>
-            </ul>
+            </ul>s
 
             <p><strong>Important Dates</strong></p>
             <ul>
