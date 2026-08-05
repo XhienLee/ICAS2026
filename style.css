@@ -354,8 +354,15 @@ body {
   color: #444;
 }
 
+.accordion-panel-inner img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
 .accordion-item.is-open .accordion-panel {
-  max-height: 400px;
+  max-height: 2000px;
 }
 
 /* ---------- Footer ---------- */
