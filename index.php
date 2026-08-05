@@ -131,6 +131,17 @@
             <div class="accordion-list">
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
+                        Sustainable Development Goals
+                        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-panel">
+                        <img src="sdg.jpg">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-trigger" type="button">
                         Rationale
                         <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -141,16 +152,80 @@
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <button class="accordion-trigger" type="button">
-                        Call for Abstracts
-                        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </button>
-                    <div class="accordion-panel">
-                        <div class="accordion-panel-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                    </div>
-                </div>
+    <button class="accordion-trigger" type="button">
+        Call for Participation
+        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+    <div class="accordion-panel">
+        <div class="accordion-panel-inner">
+            <p><strong>[CALL FOR PARTICIPATION]</strong></p>
+
+            <p>The University of Southeastern Philippines (USeP) – College of Arts and Sciences, in partnership with the Philippine Association of State Universities and Colleges (PASUC) Region XI and its international partner institutions Universiti Malaya (Malaysia), Universiti Teknologi MARA (UiTM), Malaysia, and Universitas Diponegoro (Indonesia), proudly invites researchers, educators, scientists, practitioners, students, policymakers, industry professionals, and other stakeholders to participate in the 6th International Conference on Arts and Sciences (ICAS) 2026.</p>
+
+            <p>With the theme: <em>"Resilient Transitions: Arts and Sciences as Catalysts for Sustainable Development in the Age of Industrial Revolution"</em></p>
+
+            <p>ICAS 2026 serves as a premier international platform for presenting innovative research, fostering interdisciplinary collaboration, strengthening global academic partnerships, and advancing evidence-based solutions that address contemporary societal, scientific, and environmental challenges.</p>
+
+            <ul>
+                <li><strong>Date:</strong> November 27–28, 2026</li>
+                <li><strong>Venue:</strong> TBA</li>
+                <li><strong>Location:</strong> Davao City, Philippines</li>
+                <li><strong>Format:</strong> Hybrid Conference (On-site and Online Participation)</li>
+            </ul>
+
+            <p><strong>Conference Tracks</strong></p>
+            <ul>
+                <li>Natural Sciences</li>
+                <li>Mathematics and Statistics</li>
+                <li>Language and Literature</li>
+                <li>Social Sciences</li>
+                <li>Interdisciplinary Arts and Sciences Research</li>
+            </ul>
+
+            <p><strong>Important Dates</strong></p>
+            <ul>
+                <li>Notification of Acceptance: September 29, 2026</li>
+                <li>Pre-Registration Deadline: September 30, 2026</li>
+                <li>Full Paper Submission Deadline: October 30, 2026</li>
+                <li>Regular Registration Deadline: October 31, 2026</li>
+            </ul>
+
+            <p><strong>Registration Fees</strong></p>
+
+            <p><em>On-site Participants</em></p>
+            <ul>
+                <li>Local Faculty/Researcher (Presenter) — Early Bird: ₱4,000.00 | Regular: ₱5,000.00</li>
+                <li>Local Faculty/Researcher (Non-Presenter) — Early Bird: ₱3,000.00 | Regular: ₱3,500.00</li>
+                <li>Local Graduate Student (Presenter) — Early Bird: ₱2,000.00 | Regular: ₱2,500.00</li>
+                <li>Local Undergraduate Student (Presenter) — Early Bird: ₱1,500.00 | Regular: ₱1,800.00</li>
+                <li>Local Graduate &amp; Undergraduate Students (Non-Presenter) — Early Bird: ₱1,000.00 | Regular: ₱1,500.00</li>
+                <li>International Participants (On-site) — Early Bird: US$100.00 | Regular: US$117.00</li>
+            </ul>
+
+            <p><em>Virtual Participants</em></p>
+            <ul>
+                <li>Local Participants — Early Bird: ₱1,000.00 | Regular: ₱1,500.00</li>
+                <li>International Participants — Early Bird: US$17.00 | Regular: US$25.00</li>
+            </ul>
+
+            <p>Join scholars, researchers, educators, students, and professionals from around the world as we explore how the arts and sciences can drive resilient transitions and contribute to a more sustainable future through research, innovation, and international collaboration.</p>
+
+            <p>Be part of ICAS 2026 and contribute to meaningful conversations that inspire transformative and interdisciplinary solutions for global challenges.</p>
+
+            <p>
+                <em>University of Southeastern Philippines</em><br>
+                <em>PASUC Region XI</em><br>
+                <em>Universiti Malaya, Malaysia</em><br>
+                <em>Universiti Teknologi MARA (UiTM), Malaysia</em><br>
+                <em>Universitas Diponegoro, Indonesia</em>
+            </p>
+
+            <p>#ICAS2026 #USeP #PASUCXI #ResearchExcellence #ArtsAndSciences #GlobalResearch #InterdisciplinaryResearch #SustainableDevelopment</p>
+        </div>
+    </div>
+</div>
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
                         Conference Participations
