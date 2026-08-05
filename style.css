@@ -251,6 +251,14 @@ body {
   text-align: justify;
 }
 
+.plenary-bio a:link {
+  color: black;
+}
+
+.plenary-bio a:hover {
+  background: #ccfacc;
+}
+
 /* ---------- Category tab bar ---------- */
 .category-tabs {
   display: flex;
@@ -440,6 +448,10 @@ body {
   }
 
   .keynote-bio {
+    margin-top: revert;
+  }
+
+  .plenary-bio {
     margin-top: revert;
   }
 }
