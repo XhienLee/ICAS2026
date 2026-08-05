@@ -47,15 +47,16 @@
         <section class="keynote-section">
             <h2 class="section-title">Keynote Speaker</h2>
             <div class="keynote-card">
-                <div class="keynote-photo">
-                    <img src="logo/usep_logo2.png" alt="Keynote Speaker">
+                <div class="keynote-profile">
+                    <div class="keynote-photo">
+                        <img src="speakers/jubilado.jpg" alt="Keynote Speaker">
+                    </div>
+                    <p class="keynote-name">Dr. Rodney C. Jubilado</p>
+                    <p class="keynote-title">University of Hawai'i - Hilo</p>
                 </div>
                 <div class="keynote-bio">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio praesent libero.</p>
-                    <p>Sed cursus ante dapibus diam. Sed nisi nulla quis sem at nibh elementum imperdiet duis sagittis ipsum.</p>
-                    <p>Praesent mauris fusce nec tellus sed augue semper porta mauris massa vitae.</p>
-                    <p class="keynote-name">[NAME]</p>
-                    <p class="keynote-title">[title/position]</p>
+                    <p>Dr. Jubilado received his Doctor of Philosophy in Theoretical Linguistics from the National University of Malaysia and his Master of Arts in Linguistics from the University of the Philippines.</p>
+                    <p>He has presented papers in international conferences, published articles in journals, and conducted collaborative research with other scholars in Malaysia and Hawai'i. His professional interests include Theoretical Linguistics, Malay Linguistics, Philippine Linguistics, Migration Studies, Cultural Studies, ASEAN Studies, and World Englishes.</p>
                 </div>
             </div>
         </section>
@@ -87,12 +88,13 @@
 <div class="plenary-panel" id="math-stats">
   <div class="plenary-card">
     <div class="plenary-profile">
-        <div class="plenary-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Speaker name"></div>
-        <p class="plenary-name">DR. JUAN DELA CRUZ</p>
-        <p class="plenary-title">Professor of Statistics, University of the Philippines</p>
+        <div class="plenary-photo"><img src="speakers/svadlenka.jpg" alt="Speaker name"></div>
+        <p class="plenary-name">Prof. Karel Svadlenka</p>
+        <p class="plenary-title">Department of Mathematics, Tokyo Metropolitan University</p>
     </div>
     <div class="plenary-bio">
-      <p>Replace this bio with the Mathematics and Statistics plenary speaker's details.</p>
+        <p>Karel Svadlenka is currently a Professor in the Department of Mathematics, Graduate School of Science at Tokyo Metropolitan University. He completed his undergraduate and doctoral studies at Charles University in Prague (supervised by Prof. Miloslav Feistauer) and earned his PhD from Kanazawa University (supervised by Prof. Seiro Omata) in 2008.</p>
+        <p>Following a JSPS Postdoctoral Fellowship, he served as an Associate Professor at Kanazawa University (2009–2014) and Kyoto University (2015–2023) before assuming his current professorship in October 2023. He is an active member of the Japan Society for Industrial and Applied Mathematics (JSIAM), the Mathematical Society of Japan (MSJ), and the Society for Industrial and Applied Mathematics (SIAM).</p>
     </div>
   </div>
 </div>
@@ -136,7 +138,7 @@
                             <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </button>
-                    <div class="accordion-panel">
+                    <div class="accordion-panel" id="sdg">
                         <img src="sdg.jpg">
                     </div>
                 </div>
