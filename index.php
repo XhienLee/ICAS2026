@@ -90,11 +90,23 @@
     <div class="plenary-profile">
         <div class="plenary-photo"><img src="speakers/svadlenka.jpg" alt="Speaker name"></div>
         <p class="plenary-name">Prof. Karel Svadlenka</p>
-        <p class="plenary-title">Department of Mathematics, Tokyo Metropolitan University</p>
+        <p class="plenary-title">Professor, Department of Mathematics, Tokyo Metropolitan University, Japan</p>
     </div>
     <div class="plenary-bio">
         <p>Karel Svadlenka is currently a Professor in the Department of Mathematics, Graduate School of Science at Tokyo Metropolitan University. He completed his undergraduate and doctoral studies at Charles University in Prague (supervised by Prof. Miloslav Feistauer) and earned his PhD from Kanazawa University (supervised by Prof. Seiro Omata) in 2008.</p>
         <p>Following a JSPS Postdoctoral Fellowship, he served as an Associate Professor at Kanazawa University (2009–2014) and Kyoto University (2015–2023) before assuming his current professorship in October 2023. He is an active member of the Japan Society for Industrial and Applied Mathematics (JSIAM), the Mathematical Society of Japan (MSJ), and the Society for Industrial and Applied Mathematics (SIAM).</p>
+    </div>
+  </div>
+  <div class="plenary-card">
+    <div class="plenary-profile">
+        <div class="plenary-photo"><img src="speakers/susanto.jpg" alt="Speaker name"></div>
+        <p class="plenary-name">Prof. Hadi Susanto</p>
+        <p class="plenary-title">Professor, Department of Mathematics, Khalifa University, United Arab Emirates</p>
+    </div>
+    <div class="plenary-bio">
+        <p>Hadi Susanto was then a visiting assistant professor in Mathematics (2005-2007) at the University of Massachusetts Amherst, lecturer in Applied Mathematics (2008-2013) at the University of Nottingham, senior lecturer in Applied Mathematics and then professor of Applied Mathematics (2014-2022) at the University of Essex. He joined Khalifa University in 2020 as Associate Chair for Graduate Studies in Mathematics. He is also an adjunct/honorary professor in the Department of Mathematics, Universitas Indonesia (UI) and Institut Teknologi Sumatera (ITERA), and a member of the Institut Teknologi Bandung Advisory Board.</p>
+        <p>He currently serves as Associate Editor of the IMA Journal of Applied Mathematics (Oxford University Press), Optical and Quantum Electronics (Springer Nature), Frontiers in Photonics (Nonlinear Optics section), and Communication in Biomathematical Sciences (Indonesian Bio-Mathematical Society).</p>
+        <p>For more information about him, please see his <a href="https://hs-info.github.io/">personal website</a>.</p>
     </div>
   </div>
 </div>
