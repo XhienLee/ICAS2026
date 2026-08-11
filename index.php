@@ -220,7 +220,7 @@
                 <li>Language and Literature</li>
                 <li>Social Sciences</li>
                 <li>Interdisciplinary Arts and Sciences Research</li>
-            </ul>s
+            </ul>
 
             <p><strong>Important Dates</strong></p>
             <ul>
