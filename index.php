@@ -126,9 +126,8 @@
         <p class="plenary-title">Asst. Prof, English Language and Literature, Xiamen University Malaysia</p>
     </div>
     <div class="plenary-bio">
-      <p>Dr. Al Saggaf Mohammed Ali Abdellah is an Assistant Professor in the Department of English and Linguistics at Xiamen University Malaysia (XMUM). He earned his PhD in Linguistics from Universiti Sains Malaysia (USM) and specializes in applied linguistics, syntax, and structural language studies.</p>
-      <p>His research primarily focuses on syntactic analysis, sentence structures, and language acquisition, with a particular emphasis on English and Arabic linguistics. Dr. Al Saggaf has authored numerous peer-reviewed articles in international indexed journals, contributing valuable insights to modern linguistic frameworks and cross-linguistic analysis. Alongside his active research agenda, he is dedicated to undergraduate and postgraduate teaching, thesis supervision, and academic reviewing for international publications. </p>
-    </div>
+      <p>Dr. Mohammad Ali Abdellah Al-Saggaf is an Assistant Professor of Applied Linguistics and English Language Studies at Xiamen University Malaysia, with more than 13 years of university teaching experience across Malaysia and the Middle East. He holds a PhD and MA in English Language Studies from Universiti Kebangsaan Malaysia (UKM), specializing in translation, corpus linguistics, cognitive linguistics, and language education.</p>
+      <p>Dr. Al-Saggaf currently serves as Head of Internal Quality Assurance (IQA) and has played a leading role in academic quality enhancement, programme development, curriculum review, accreditation preparation, and institutional compliance with national quality standards. He has been actively involved in the design, revision, and approval of undergraduate and postgraduate programmes, ensuring alignment with educational quality frameworks and accreditation requirements.</p>
   </div>
 </div>
  
