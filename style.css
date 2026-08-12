@@ -23,6 +23,7 @@ body {
   background-color: #760000;
   color: var(--cream);
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 32px;
@@ -32,6 +33,11 @@ body {
   display: flex;
   align-items: center;
   gap: 18px;
+  min-width: 0;
+}
+
+.brand-header .brand-right {
+  flex-shrink: 0;
 }
 
 .brand-header .seal {
@@ -44,8 +50,13 @@ body {
   flex-shrink: 0;
 }
 
+.brand-logo {
+  min-width: 0;
+}
+
 .brand-logo img {
   width: auto;
+  max-width: 100%;
   height: 100px;
 }
 
@@ -160,6 +171,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .keynote-photo img {
@@ -460,6 +472,17 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 100%;
+  }
+
+  .keynote-profile {
+    width: 100%;
+  }
+
+  .keynote-photo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
   }
 
   .keynote-bio {
@@ -468,5 +491,175 @@ body {
 
   .plenary-bio {
     margin-top: revert;
+  }
+
+  /* ----- Top brand bar ----- */
+  .brand-header {
+    justify-content: space-between;
+    gap: 6px;
+    padding: 8px 10px;
+  }
+
+  .brand-header .brand-left {
+    gap: 6px;
+  }
+
+  .brand-logo img {
+    height: 34px;
+  }
+
+  .brand-header .seal {
+    width: 32px;
+    height: 32px;
+  }
+
+  /* ----- Utility bar ----- */
+  .utility-bar {
+    justify-content: center;
+    padding: 8px 16px;
+  }
+
+  /* ----- Header action buttons ----- */
+  .header-actions {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 14px 16px;
+  }
+
+  .btn-pill {
+    padding: 8px 18px;
+    font-size: 12px;
+  }
+
+  /* ----- Page content wrapper ----- */
+  .page-content {
+    padding: 8px 16px 32px;
+  }
+
+  .section-title {
+    font-size: 17px;
+    margin: 24px 0 12px;
+    text-align: center;
+  }
+
+  /* ----- Keynote speaker ----- */
+  .keynote-card {
+    gap: 16px;
+    padding: 12px 0;
+  }
+
+  .keynote-photo {
+    width: 180px;
+    height: 180px;
+  }
+
+  .keynote-bio {
+    font-size: 13px;
+  }
+
+  /* ----- Plenary speakers ----- */
+  .plenary-card {
+    gap: 16px;
+    padding: 16px 0;
+  }
+
+  .plenary-profile {
+    flex: none;
+    width: 100%;
+  }
+
+  .plenary-photo {
+    width: 180px;
+    height: 180px;
+  }
+
+  .plenary-bio {
+    font-size: 14px;
+  }
+
+  /* ----- Category tab bar ----- */
+  .category-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    justify-content: flex-start;
+  }
+
+  .category-tab {
+    flex: 0 0 auto;
+    font-size: 13px;
+    padding: 10px 14px;
+    white-space: nowrap;
+  }
+
+  .plenary-panel {
+    padding: 16px;
+  }
+
+  /* ----- Accordion ----- */
+  .accordion-trigger {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  .accordion-panel-inner {
+    font-size: 13px;
+    padding: 0 12px 12px;
+  }
+
+  #highlights img {
+    max-width: 47%;
+    flex: 1 1 140px;
+  }
+
+  /* ----- Footer ----- */
+  .footer-top {
+    flex-direction: column;
+    text-align: center;
+    padding: 16px;
+    gap: 10px;
+  }
+
+  .footer-copy {
+    order: 2;
+  }
+
+  .footer-privacy {
+    order: 3;
+  }
+
+  .footer-seals {
+    order: 1;
+  }
+}
+
+@media (max-width: 420px) {
+  .brand-logo img {
+    height: 28px;
+  }
+
+  .brand-header .seal {
+    width: 26px;
+    height: 26px;
+  }
+
+  .keynote-photo,
+  .plenary-photo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .section-title {
+    font-size: 15px;
+  }
+
+  .category-tab {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  #highlights img {
+    max-width: 100%;
+    flex: 1 1 100%;
   }
 }
