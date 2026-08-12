@@ -37,11 +37,6 @@
         <img src="banner.png" alt="ICAS 2026 - International Conference on Arts and Sciences">
     </div>
 
-    <div class="header-actions">
-        <a href="#keydates" class="btn-pill">KEYDATES</a>
-        <a href="#fees" class="btn-pill">FEES</a>
-    </div>
-
     <main class="page-content">
 
         <section class="keynote-section">
