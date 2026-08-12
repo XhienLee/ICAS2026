@@ -186,7 +186,7 @@
                         </svg>
                     </button>
                     <div class="accordion-panel">
-                        <div class="accordion-panel-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div class="accordion-panel-inner"></div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -264,34 +264,23 @@
         </div>
     </div>
 </div>
+
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
-                        Conference Participations
+                        Program Flow
                         <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </button>
                     <div class="accordion-panel">
-                        <div class="accordion-panel-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div class="accordion-panel-inner"></div>
                     </div>
                 </div>
-            </div>
         </section>
 
         <section class="accordion-section" id="program">
-            <h2 class="section-title">Program</h2>
+            <h2 class="section-title">Program Tracks</h2>
             <div class="accordion-list">
-                <div class="accordion-item">
-                    <button class="accordion-trigger" type="button">
-                        ICAS 2026 Program
-                        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </button>
-                    <div class="accordion-panel">
-                        <div class="accordion-panel-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                    </div>
-                </div>
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
                         Mathematics and Statistics
@@ -300,7 +289,7 @@
                         </svg>
                     </button>
                     <div class="accordion-panel">
-                        <div class="accordion-panel-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div class="accordion-panel-inner"></div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -311,7 +300,7 @@
                         </svg>
                     </button>
                     <div class="accordion-panel">
-                        <div class="accordion-panel-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div class="accordion-panel-inner"></div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -322,7 +311,7 @@
                         </svg>
                     </button>
                     <div class="accordion-panel">
-                        <div class="accordion-panel-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div class="accordion-panel-inner"></div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -333,7 +322,7 @@
                         </svg>
                     </button>
                     <div class="accordion-panel">
-                        <div class="accordion-panel-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div class="accordion-panel-inner"></div>
                     </div>
                 </div>
             </div>
@@ -344,7 +333,7 @@
             <div class="accordion-list">
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
-                        ICAS Highlights
+                        ICAS 2025 Highlights
                         <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -372,7 +361,7 @@
                         </svg>
                     </button>
                     <div class="accordion-panel">
-                        <div class="accordion-panel-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div class="accordion-panel-inner"></div>
                     </div>
                 </div>
             </div>
