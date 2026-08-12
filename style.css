@@ -364,10 +364,25 @@ body {
 #sdg {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 #sdg img {
   max-width: 95%;
+}
+
+#highlights {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#highlights img {
+  flex: 1 1 200px;
+  max-width: 31%;
+  height: auto;
+
 }
 
 .accordion-panel-inner {
