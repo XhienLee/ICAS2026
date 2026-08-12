@@ -86,9 +86,21 @@
  
 <!-- Mathematics and Statistics panel -->
 <div class="plenary-panel" id="math-stats">
+    <div class="plenary-card">
+        <div class="plenary-profile">
+            <div class="plenary-photo"><img src="speakers/susanto.png" alt="Speaker name"></div>
+            <p class="plenary-name">Prof. Hadi Susanto</p>
+            <p class="plenary-title">Professor, Department of Mathematics, Khalifa University, United Arab Emirates</p>
+        </div>
+        <div class="plenary-bio">
+            <p>Hadi Susanto was then a visiting assistant professor in Mathematics (2005-2007) at the University of Massachusetts Amherst, lecturer in Applied Mathematics (2008-2013) at the University of Nottingham, senior lecturer in Applied Mathematics and then professor of Applied Mathematics (2014-2022) at the University of Essex. He joined Khalifa University in 2020 as Associate Chair for Graduate Studies in Mathematics. He is also an adjunct/honorary professor in the Department of Mathematics, Universitas Indonesia (UI) and Institut Teknologi Sumatera (ITERA), and a member of the Institut Teknologi Bandung Advisory Board.</p>
+            <p>He currently serves as Associate Editor of the IMA Journal of Applied Mathematics (Oxford University Press), Optical and Quantum Electronics (Springer Nature), Frontiers in Photonics (Nonlinear Optics section), and Communication in Biomathematical Sciences (Indonesian Bio-Mathematical Society).</p>
+            <p>For more information about him, please see his <a href="https://hs-info.github.io/">personal website</a>.</p>
+        </div>
+    </div>
   <div class="plenary-card">
     <div class="plenary-profile">
-        <div class="plenary-photo"><img src="speakers/svadlenka.jpg" alt="Speaker name"></div>
+        <div class="plenary-photo"><img src="speakers/svadlenka.png" alt="Speaker name"></div>
         <p class="plenary-name">Prof. Karel Svadlenka</p>
         <p class="plenary-title">Professor, Department of Mathematics, Tokyo Metropolitan University, Japan</p>
     </div>
@@ -97,25 +109,13 @@
         <p>Following a JSPS Postdoctoral Fellowship, he served as an Associate Professor at Kanazawa University (2009–2014) and Kyoto University (2015–2023) before assuming his current professorship in October 2023. He is an active member of the Japan Society for Industrial and Applied Mathematics (JSIAM), the Mathematical Society of Japan (MSJ), and the Society for Industrial and Applied Mathematics (SIAM).</p>
     </div>
   </div>
-  <div class="plenary-card">
-    <div class="plenary-profile">
-        <div class="plenary-photo"><img src="speakers/susanto.jpg" alt="Speaker name"></div>
-        <p class="plenary-name">Prof. Hadi Susanto</p>
-        <p class="plenary-title">Professor, Department of Mathematics, Khalifa University, United Arab Emirates</p>
-    </div>
-    <div class="plenary-bio">
-        <p>Hadi Susanto was then a visiting assistant professor in Mathematics (2005-2007) at the University of Massachusetts Amherst, lecturer in Applied Mathematics (2008-2013) at the University of Nottingham, senior lecturer in Applied Mathematics and then professor of Applied Mathematics (2014-2022) at the University of Essex. He joined Khalifa University in 2020 as Associate Chair for Graduate Studies in Mathematics. He is also an adjunct/honorary professor in the Department of Mathematics, Universitas Indonesia (UI) and Institut Teknologi Sumatera (ITERA), and a member of the Institut Teknologi Bandung Advisory Board.</p>
-        <p>He currently serves as Associate Editor of the IMA Journal of Applied Mathematics (Oxford University Press), Optical and Quantum Electronics (Springer Nature), Frontiers in Photonics (Nonlinear Optics section), and Communication in Biomathematical Sciences (Indonesian Bio-Mathematical Society).</p>
-        <p>For more information about him, please see his <a href="https://hs-info.github.io/">personal website</a>.</p>
-    </div>
-  </div>
 </div>
  
 <!-- Social Sciences panel -->
 <div class="plenary-panel" id="social-sciences">
   <div class="plenary-card">
     <div class="plenary-profile">
-        <div class="plenary-photo"><img src="speakers/aurelio.jpg" alt="Speaker name"></div>
+        <div class="plenary-photo"><img src="speakers/agcaoili.png" alt="Speaker name"></div>
         <p class="plenary-name">Dr. Auerelio S. Agcaoili</p>
         <p class="plenary-title">Chair, Department of Indo-Pacific langaugeges and Literatures, University of Hawaii at Manoa</p>
     </div>
@@ -126,7 +126,7 @@
   </div>
   <div class="plenary-card">
     <div class="plenary-profile">
-        <div class="plenary-photo"><img src="speakers/AI.png" alt="Speaker name"></div>
+        <div class="plenary-photo"><img src="speakers/abdellah.png" alt="Speaker name"></div>
         <p class="plenary-name">Dr. Al Saggaf Mohammed Ali Abdellah</p>
         <p class="plenary-title">Asst. Prof, English Language and Literature, Xiamen University Malaysia</p>
     </div>
@@ -141,7 +141,7 @@
 <div class="plenary-panel" id="language-lit">
   <div class="plenary-card">
     <div class="plenary-profile">
-        <div class="plenary-photo"><img src="speakers/mohammed.png" alt="Speaker name"></div>
+        <div class="plenary-photo"><img src="speakers/al-alaqad.png" alt="Speaker name"></div>
         <p class="plenary-name">Dr. Mohammed Al-alaqad</p>
         <p class="plenary-title">Assistant Professor, Universiti Malaya, Malaysia</p>
     </div>
@@ -152,7 +152,7 @@
   </div>
   <div class="plenary-card">
     <div class="plenary-profile">
-        <div class="plenary-photo"><img src="speakers/nasirin.png" alt="Speaker name"></div>
+        <div class="plenary-photo"><img src="speakers/abdillah.png" alt="Speaker name"></div>
         <p class="plenary-name">Dr. Nasirin Abdillah</p>
         <p class="plenary-title">College of Creative Arts, University Teknoloji Mara, Malaysia</p>
     </div>
@@ -350,7 +350,18 @@
                         </svg>
                     </button>
                     <div class="accordion-panel">
-                        <div class="accordion-panel-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        <div class="accordion-panel-inner" id="highlights">
+                            <img src="icas2025pubmats/pubmat1.jpg">
+                            <img src="icas2025pubmats/pubmat2.jpg">
+                            <img src="icas2025pubmats/pubmat3.jpg">
+                            <img src="icas2025pubmats/pubmat4.jpg">
+                            <img src="icas2025pubmats/pubmat5.jpg">
+                            <img src="icas2025pubmats/pubmat6.jpg">
+                            <img src="icas2025pubmats/pubmat7.jpg">
+                            <img src="icas2025pubmats/pubmat8.jpg">
+                            <img src="icas2025pubmats/pubmat9.jpg">
+                            <img src="icas2025pubmats/pubmat10.jpg">
+                        </div>
                     </div>
                 </div>
                 <div class="accordion-item">
