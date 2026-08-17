@@ -19,6 +19,7 @@ body {
 }
 
 /* ---------- Top brand bar ---------- */
+
 .brand-header {
   background-color: #760000;
   color: var(--cream);
@@ -61,6 +62,7 @@ body {
 }
 
 /* ---------- Utility bar (social icons) ---------- */
+
 .utility-bar {
   background: rgba(40, 40, 40, 0.9);
   color: var(--cream);
@@ -95,6 +97,7 @@ body {
 }
 
 /* ---------- Conference banner ---------- */
+
 .banner {
   width: 100%;
   line-height: 0;
@@ -107,6 +110,7 @@ body {
 }
 
 /* ---------- Keydates / Fees pill buttons ---------- */
+
 .header-actions {
   display: flex;
   justify-content: center;
@@ -134,6 +138,7 @@ body {
 }
 
 /* ---------- Page content wrapper ---------- */
+
 .page-content {
   width: 100%;
   margin: 0;
@@ -149,7 +154,19 @@ body {
   margin: 32px 0 16px;
 }
 
+.keynote-flex-wrapper {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 400px;
+  gap: 30px;
+  align-items: start;
+}
+
+.keynote-section {
+  min-width: 0;
+}
+
 /* ---------- Keynote speaker ---------- */
+
 .keynote-card {
   display: flex;
   gap: 40px;
@@ -159,6 +176,7 @@ body {
 
 .keynote-profile {
   text-align: center;
+  flex-shrink: 0;
 }
 
 .keynote-photo {
@@ -207,7 +225,63 @@ body {
   margin-top: -12px;
 }
 
+/* ---------- Key Dates / Fees ---------- */
+
+.key-info-panel {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 32px;
+}
+
+.key-info-heading {
+  font-family: "Cinzel", serif;
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--maroon);
+  letter-spacing: 1px;
+  margin: 0 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.key-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.key-info-row {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.key-info-label {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #555;
+}
+
+.key-info-value {
+  font-family: "Cinzel", serif;
+  font-size: 13px;
+  font-weight: 800;
+  color: #0d452a;
+}
+
+.key-info-note {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #777;
+  margin: 0;
+}
+
 /* ---------- Plenary speakers ---------- */
+
 .plenary-card {
   display: flex;
   gap: 40px;
@@ -272,6 +346,7 @@ body {
 }
 
 /* ---------- Category tab bar ---------- */
+
 .category-tabs {
   display: flex;
   flex-wrap: wrap;
@@ -301,6 +376,7 @@ body {
 }
 
 /* ---------- Plenary panels ---------- */
+
 .plenary-panel {
   display: none;
   background: #fff;
@@ -315,11 +391,19 @@ body {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(4px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* ---------- Accordion-style link lists ---------- */
+
 .accordion-list {
   display: flex;
   flex-direction: column;
@@ -394,7 +478,6 @@ body {
   flex: 1 1 200px;
   max-width: 31%;
   height: auto;
-
 }
 
 .accordion-panel-inner {
@@ -417,6 +500,7 @@ body {
 }
 
 /* ---------- Footer ---------- */
+
 .site-footer {
   background: #2b2b2b;
   margin-top: 40px;
@@ -459,13 +543,18 @@ body {
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
-/* ---------- Responsive ---------- */
+
 @media (max-width: 700px) {
-  .plenary-card {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    max-height: none;
-    text-align: center;
+
+  /* ----- Keynote + Key Information ----- */
+
+  .keynote-flex-wrapper {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .key-info-panel {
+    margin-top: 0;
   }
 
   .keynote-card {
@@ -473,6 +562,8 @@ body {
     align-items: center;
     text-align: center;
     width: 100%;
+    gap: 16px;
+    padding: 12px 0;
   }
 
   .keynote-profile {
@@ -480,20 +571,44 @@ body {
   }
 
   .keynote-photo {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     margin: 0 auto;
   }
 
   .keynote-bio {
     margin-top: revert;
+    font-size: 13px;
+  }
+
+  /* ----- Plenary speakers ----- */
+
+  .plenary-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-height: none;
+    text-align: center;
+    gap: 16px;
+    padding: 16px 0;
+  }
+
+  .plenary-profile {
+    flex: none;
+    width: 100%;
+  }
+
+  .plenary-photo {
+    width: 180px;
+    height: 180px;
   }
 
   .plenary-bio {
+    font-size: 14px;
     margin-top: revert;
   }
 
   /* ----- Top brand bar ----- */
+
   .brand-header {
     justify-content: space-between;
     gap: 6px;
@@ -514,12 +629,14 @@ body {
   }
 
   /* ----- Utility bar ----- */
+
   .utility-bar {
     justify-content: center;
     padding: 8px 16px;
   }
 
   /* ----- Header action buttons ----- */
+
   .header-actions {
     flex-wrap: wrap;
     gap: 10px;
@@ -532,6 +649,7 @@ body {
   }
 
   /* ----- Page content wrapper ----- */
+
   .page-content {
     padding: 8px 16px 32px;
   }
@@ -542,42 +660,8 @@ body {
     text-align: center;
   }
 
-  /* ----- Keynote speaker ----- */
-  .keynote-card {
-    gap: 16px;
-    padding: 12px 0;
-  }
-
-  .keynote-photo {
-    width: 180px;
-    height: 180px;
-  }
-
-  .keynote-bio {
-    font-size: 13px;
-  }
-
-  /* ----- Plenary speakers ----- */
-  .plenary-card {
-    gap: 16px;
-    padding: 16px 0;
-  }
-
-  .plenary-profile {
-    flex: none;
-    width: 100%;
-  }
-
-  .plenary-photo {
-    width: 180px;
-    height: 180px;
-  }
-
-  .plenary-bio {
-    font-size: 14px;
-  }
-
   /* ----- Category tab bar ----- */
+
   .category-tabs {
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -597,6 +681,7 @@ body {
   }
 
   /* ----- Accordion ----- */
+
   .accordion-trigger {
     font-size: 13px;
     padding: 12px;
@@ -613,6 +698,7 @@ body {
   }
 
   /* ----- Footer ----- */
+
   .footer-top {
     flex-direction: column;
     text-align: center;
@@ -633,7 +719,10 @@ body {
   }
 }
 
+/* ---------- Very small screens ---------- */
+
 @media (max-width: 420px) {
+
   .brand-logo img {
     height: 28px;
   }
