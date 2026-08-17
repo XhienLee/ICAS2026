@@ -39,22 +39,56 @@
 
     <main class="page-content">
 
-        <section class="keynote-section">
-            <h2 class="section-title">Keynote Speaker</h2>
-            <div class="keynote-card">
-                <div class="keynote-profile">
-                    <div class="keynote-photo">
-                        <img src="speakers/jubilado.jpg" alt="Keynote Speaker">
-                    </div>
-                    <p class="keynote-name">Dr. Rodney C. Jubilado</p>
-                    <p class="keynote-title">University of Hawai'i - Hilo</p>
+        <div class="keynote-flex-wrapper">
+
+    <section class="keynote-section">
+        <h2 class="section-title">Keynote Speaker</h2>
+        <div class="keynote-card">
+            <div class="keynote-profile">
+                <div class="keynote-photo">
+                    <img src="speakers/jubilado.jpg" alt="Keynote Speaker">
                 </div>
-                <div class="keynote-bio">
-                    <p>Dr. Jubilado received his Doctor of Philosophy in Theoretical Linguistics from the National University of Malaysia and his Master of Arts in Linguistics from the University of the Philippines.</p>
-                    <p>He has presented papers in international conferences, published articles in journals, and conducted collaborative research with other scholars in Malaysia and Hawai'i. His professional interests include Theoretical Linguistics, Malay Linguistics, Philippine Linguistics, Migration Studies, Cultural Studies, ASEAN Studies, and World Englishes.</p>
-                </div>
+                <p class="keynote-name">Dr. Rodney C. Jubilado</p>
+                <p class="keynote-title">University of Hawai'i - Hilo</p>
             </div>
-        </section>
+            <div class="keynote-bio">
+                <p>Dr. Jubilado received his Doctor of Philosophy in Theoretical Linguistics from the National University of Malaysia and his Master of Arts in Linguistics from the University of the Philippines.</p>
+                <p>He has presented papers in international conferences, published articles in journals, and conducted collaborative research with other scholars in Malaysia and Hawai'i. His professional interests include Theoretical Linguistics, Malay Linguistics, Philippine Linguistics, Migration Studies, Cultural Studies, ASEAN Studies, and World Englishes.</p>
+            </div>
+        </div>
+    </section>
+
+    <aside class="key-info-panel">
+        <h3 class="key-info-heading">KEY DATES</h3>
+        <div class="key-info-list">
+            <div class="key-info-row">
+                <span class="key-info-label">Last Day for Abstract Submission</span>
+                <span class="key-info-value">SEPTEMBER 18</span>
+            </div>
+            <div class="key-info-row">
+                <span class="key-info-label">Notification of Acceptance</span>
+                <span class="key-info-value">SEPTEMBER 29</span>
+            </div>
+            <div class="key-info-row">
+                <span class="key-info-label">Conference Day</span>
+                <span class="key-info-value">NOVEMBER 27-28</span>
+            </div>
+        </div>
+
+        <h3 class="key-info-heading">FEES</h3>
+        <div class="key-info-list">
+            <div class="key-info-row">
+                <span class="key-info-label">Paper Presenter (Online)</span>
+                <span class="key-info-value">P 100</span>
+            </div>
+            <div class="key-info-row">
+                <span class="key-info-label">Observer-Participant (Online)</span>
+                <span class="key-info-value">P 100</span>
+            </div>
+        </div>
+        <p class="key-info-note">Participation fees inclusion: certificate</p>
+    </aside>
+</div>
 
         <section class="plenary-section">
             <h2 class="section-title">Plenary Speakers</h2>
