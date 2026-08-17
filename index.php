@@ -108,27 +108,28 @@
  
 <!-- Social Sciences panel -->
 <div class="plenary-panel" id="social-sciences">
-  <div class="plenary-card">
-    <div class="plenary-profile">
-        <div class="plenary-photo"><img src="speakers/agcaoili.png" alt="Speaker name"></div>
-        <p class="plenary-name">Dr. Auerelio S. Agcaoili</p>
-        <p class="plenary-title">Chair, Department of Indo-Pacific langaugeges and Literatures, University of Hawaii at Manoa</p>
+    <div class="plenary-card">
+        <div class="plenary-profile">
+            <div class="plenary-photo"><img src="speakers/agcaoili.png" alt="Speaker name"></div>
+            <p class="plenary-name">Dr. Auerelio S. Agcaoili</p>
+            <p class="plenary-title">Chair, Department of Indo-Pacific langaugeges and Literatures, University of Hawaii at Manoa</p>
+        </div>
+        <div class="plenary-bio">
+        <p>Aurelio Solver Agcaoili, PhD is chair of the Department of Indo-Pacific Languages and Literatures, University of Hawaii at Manoa and president of NAKEM Conferences and chair of NAKEM Consortium. A recipient of the United State Fulbright Scholarship, he taught as a visiting lecturer at Saint Louis University’s School of Advanced Studies. </p>
+        <P>He has received several commendations, prizes, and grants from the US and the Philippines, including awards for his work in creative writing, education, research, and communication. He holds degrees in business administration, philosophy, and classical studies. He teaches ethics and writing intensive-designated courses. For a time, he taught public policy and related courses. </p>
+        </div>
     </div>
-    <div class="plenary-bio">
-      <p>Aurelio Solver Agcaoili, PhD is chair of the Department of Indo-Pacific Languages and Literatures, University of Hawaii at Manoa and president of NAKEM Conferences and chair of NAKEM Consortium. A recipient of the United State Fulbright Scholarship, he taught as a visiting lecturer at Saint Louis University’s School of Advanced Studies. </p>
-      <P>He has received several commendations, prizes, and grants from the US and the Philippines, including awards for his work in creative writing, education, research, and communication. He holds degrees in business administration, philosophy, and classical studies. He teaches ethics and writing intensive-designated courses. For a time, he taught public policy and related courses. </p>
+    <div class="plenary-card">
+        <div class="plenary-profile">
+            <div class="plenary-photo"><img src="speakers/abdellah.png" alt="Speaker name"></div>
+            <p class="plenary-name">Dr. Al Saggaf Mohammed Ali Abdellah</p>
+            <p class="plenary-title">Asst. Prof, English Language and Literature, Xiamen University Malaysia</p>
+        </div>
+        <div class="plenary-bio">
+        <p>Dr. Mohammad Ali Abdellah Al-Saggaf is an Assistant Professor of Applied Linguistics and English Language Studies at Xiamen University Malaysia, with more than 13 years of university teaching experience across Malaysia and the Middle East. He holds a PhD and MA in English Language Studies from Universiti Kebangsaan Malaysia (UKM), specializing in translation, corpus linguistics, cognitive linguistics, and language education.</p>
+        <p>Dr. Al-Saggaf currently serves as Head of Internal Quality Assurance (IQA) and has played a leading role in academic quality enhancement, programme development, curriculum review, accreditation preparation, and institutional compliance with national quality standards. He has been actively involved in the design, revision, and approval of undergraduate and postgraduate programmes, ensuring alignment with educational quality frameworks and accreditation requirements.</p>
+        </div>
     </div>
-  </div>
-  <div class="plenary-card">
-    <div class="plenary-profile">
-        <div class="plenary-photo"><img src="speakers/abdellah.png" alt="Speaker name"></div>
-        <p class="plenary-name">Dr. Al Saggaf Mohammed Ali Abdellah</p>
-        <p class="plenary-title">Asst. Prof, English Language and Literature, Xiamen University Malaysia</p>
-    </div>
-    <div class="plenary-bio">
-      <p>Dr. Mohammad Ali Abdellah Al-Saggaf is an Assistant Professor of Applied Linguistics and English Language Studies at Xiamen University Malaysia, with more than 13 years of university teaching experience across Malaysia and the Middle East. He holds a PhD and MA in English Language Studies from Universiti Kebangsaan Malaysia (UKM), specializing in translation, corpus linguistics, cognitive linguistics, and language education.</p>
-      <p>Dr. Al-Saggaf currently serves as Head of Internal Quality Assurance (IQA) and has played a leading role in academic quality enhancement, programme development, curriculum review, accreditation preparation, and institutional compliance with national quality standards. He has been actively involved in the design, revision, and approval of undergraduate and postgraduate programmes, ensuring alignment with educational quality frameworks and accreditation requirements.</p>
-  </div>
 </div>
  
 <!-- Language and Literature panel -->
@@ -180,7 +181,13 @@
                         </svg>
                     </button>
                     <div class="accordion-panel">
-                        <div class="accordion-panel-inner"></div>
+                        <div class="accordion-panel-inner">
+                            <p>With USeP's commitment to its vision of becoming a premiere research institution in the ASEAN region and beyond, the Research and Development Center for Arts and Sciences will conduct the 6th International Conference for Arts and Sciences (ICAS) 2026 as a flagship project of the college for Fiscal Year 2026. This initiative is our response to our institutional target and our way of solidifying our standing within the academic community.</p>
+
+                            <p>Hosting this conference will serve as our platform to foster cross-border collaborations and establish linkages with foreign universities, showcase USeP's excellence in research to a global audience, and fulfill the RDE's mandate to increase the university's output in terms of international publication citations and global exchange of knowledge.</p>
+
+                            <p>In response to the enhanced implementing guidelines of DBM-CHED Joint Circular No. 1, Series of 2025, and to adapt to the evolving landscape of global academia, ICAS 2026 will be conducted via a Hybrid Modality. This approach combines a robust on-site presence with a sophisticated virtual platform offering inclusive participation and expanded audience reach, as it allows renowned experts and delegates across international borders to contribute their expertise virtually.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -193,20 +200,19 @@
     <div class="accordion-panel">
         <div class="accordion-panel-inner">
             <p><strong>[CALL FOR PARTICIPATION]</strong></p>
-
-            <p>The University of Southeastern Philippines (USeP) – College of Arts and Sciences, in partnership with the Philippine Association of State Universities and Colleges (PASUC) Region XI and its international partner institutions Universiti Malaya (Malaysia), Universiti Teknologi MARA (UiTM), Malaysia, and Universitas Diponegoro (Indonesia), proudly invites researchers, educators, scientists, practitioners, students, policymakers, industry professionals, and other stakeholders to participate in the 6th International Conference on Arts and Sciences (ICAS) 2026.</p>
-
-            <p>With the theme: <em>"Resilient Transitions: Arts and Sciences as Catalysts for Sustainable Development in the Age of Industrial Revolution"</em></p>
-
-            <p>ICAS 2026 serves as a premier international platform for presenting innovative research, fostering interdisciplinary collaboration, strengthening global academic partnerships, and advancing evidence-based solutions that address contemporary societal, scientific, and environmental challenges.</p>
-
+ 
+            <p>The University of Southeastern Philippines (USeP) – College of Arts and Sciences, in partnership with the Philippine Association of State Universities and Colleges (PASUC) Region XI and its international partner institutions, proudly invites researchers, educators, scientists, practitioners, students, policymakers, industry professionals, and other stakeholders to participate in the 6th International Conference on Arts and Sciences (ICAS) 2026.</p>
+ 
+            <p><strong>Theme:</strong> <em>"Resilient Transitions: Arts and Sciences as Catalysts for Sustainable Development in the Age of Industrial Revolution"</em></p>
+ 
+            <p>ICAS 2026 is a flagship international conference that provides a platform to showcase research excellence, foster interdisciplinary collaboration, strengthen global academic networks, facilitate knowledge exchange, and advance research-based solutions to contemporary societal, scientific, environmental, and technological challenges.</p>
+ 
             <ul>
-                <li><strong>Date:</strong> November 27–28, 2026</li>
-                <li><strong>Venue:</strong> World Palace Hotel</li>
-                <li><strong>Location:</strong> Davao City, Philippines</li>
+                <li><strong>Date:</strong> November 27–28, 2026, 8:00 AM – 5:00 PM</li>
+                <li><strong>Venue:</strong> World Palace Hotel, Davao City, Philippines</li>
                 <li><strong>Format:</strong> Hybrid Conference (On-site and Online Participation)</li>
             </ul>
-
+ 
             <p><strong>Conference Tracks</strong></p>
             <ul>
                 <li>Natural Sciences</li>
@@ -215,46 +221,54 @@
                 <li>Social Sciences</li>
                 <li>Interdisciplinary Arts and Sciences Research</li>
             </ul>
-
+ 
             <p><strong>Important Dates</strong></p>
             <ul>
+                <li>Deadline of Submission of Paper Abstract: September 18, 2026</li>
                 <li>Notification of Acceptance: September 29, 2026</li>
-                <li>Pre-Registration Deadline: September 30, 2026</li>
+                <li>Pre-Registration / Early Bird Opens: September 30, 2026</li>
+                <li>Last Day of Pre-Registration / Early Bird: October 16, 2026</li>
+                <li>Regular Registration Begins: October 17, 2026</li>
                 <li>Full Paper Submission Deadline: October 30, 2026</li>
-                <li>Regular Registration Deadline: October 31, 2026</li>
+                <li>Last Day of Regular Registration: October 31, 2026</li>
             </ul>
-
+ 
             <p><strong>Registration Fees</strong></p>
-
+ 
             <p><em>On-site Participants</em></p>
             <ul>
-                <li>Local Faculty/Researcher (Presenter) — Early Bird: ₱4,000.00 | Regular: ₱5,000.00</li>
+                <li>Local Faculty / Researcher / Graduate / Undergraduate Student (Presenter) — Early Bird: ₱4,500.00 | Regular: ₱5,000.00</li>
                 <li>Local Faculty/Researcher (Non-Presenter) — Early Bird: ₱3,000.00 | Regular: ₱3,500.00</li>
-                <li>Local Graduate Student (Presenter) — Early Bird: ₱2,000.00 | Regular: ₱2,500.00</li>
-                <li>Local Undergraduate Student (Presenter) — Early Bird: ₱1,500.00 | Regular: ₱1,800.00</li>
-                <li>Local Graduate &amp; Undergraduate Students (Non-Presenter) — Early Bird: ₱1,000.00 | Regular: ₱1,500.00</li>
+                <li>Local Graduate Student (Non-Presenter) — Early Bird: ₱2,000.00 | Regular: ₱2,500.00</li>
+                <li>Local Undergraduate Student (Non-Presenter) — Early Bird: ₱1,000.00 | Regular: ₱1,500.00</li>
                 <li>International Participants (On-site) — Early Bird: US$100.00 | Regular: US$117.00</li>
             </ul>
-
-            <p><em>Virtual Participants</em></p>
+ 
+            <p><em>Virtual / Online Participants</em></p>
             <ul>
                 <li>Local Participants — Early Bird: ₱1,000.00 | Regular: ₱1,500.00</li>
                 <li>International Participants — Early Bird: US$17.00 | Regular: US$25.00</li>
             </ul>
-
-            <p>Join scholars, researchers, educators, students, and professionals from around the world as we explore how the arts and sciences can drive resilient transitions and contribute to a more sustainable future through research, innovation, and international collaboration.</p>
-
-            <p>Be part of ICAS 2026 and contribute to meaningful conversations that inspire transformative and interdisciplinary solutions for global challenges.</p>
-
-            <p>
-                <em>University of Southeastern Philippines</em><br>
-                <em>PASUC Region XI</em><br>
-                <em>Universiti Malaya, Malaysia</em><br>
-                <em>Universiti Teknologi MARA (UiTM), Malaysia</em><br>
-                <em>Universitas Diponegoro, Indonesia</em>
-            </p>
-
-            <p>#ICAS2026 #USeP #PASUCXI #ResearchExcellence #ArtsAndSciences #GlobalResearch #InterdisciplinaryResearch #SustainableDevelopment</p>
+ 
+            <p>Join scholars, researchers, educators, students, and professionals from the Philippines and around the world as we explore how Arts and Sciences can catalyze resilient transitions, sustainable development, innovation, and inclusive solutions in an increasingly interconnected and rapidly changing world.</p>
+ 
+            <p>Be part of ICAS 2026 and contribute to meaningful conversations that inspire transformative, interdisciplinary, and globally relevant research and solutions.</p>
+ 
+            <p><strong>Co-Hosted By:</strong> Philippine Association of State Universities and Colleges (PASUC) Region XI</p>
+ 
+            <p><strong>With International Partner Universities:</strong></p>
+            <ul>
+                <li>Universiti Malaya, Malaysia</li>
+                <li>Universiti Teknologi MARA (UiTM), Malaysia</li>
+                <li>Universitas Diponegoro, Indonesia</li>
+            </ul>
+ 
+            <p><strong>For inquiries and conference updates:</strong><br>
+            College of Arts and Sciences – USeP<br>
+            Email: cas@usep.edu.ph<br>
+            Phone: (082) 227-8192 local 230</p>
+ 
+            <p>#ICAS2026 #USeP #PASUCXI #ResearchExcellence #ArtsAndSciences #GlobalResearch #InterdisciplinaryResearch #SustainableDevelopment #ResilientTransitions</p>
         </div>
     </div>
 </div>
@@ -277,7 +291,7 @@
             <div class="accordion-list">
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
-                        Mathematics and Statistics
+                        Natural Science 
                         <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -288,7 +302,7 @@
                 </div>
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
-                        Natural Science
+                        Mathematics and Statistics
                         <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -310,7 +324,18 @@
                 </div>
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
-                        Social Science
+                        Social Science     
+                        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-panel">
+                        <div class="accordion-panel-inner"></div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-trigger" type="button">
+                        Interdisciplinary Arts and Sciences Research
                         <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -327,7 +352,7 @@
             <div class="accordion-list">
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
-                        ICAS 2025 Highlights
+                        ICAS 202 Highlights
                         <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
