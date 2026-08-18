@@ -104,11 +104,11 @@
   <div class="plenary-card">
     <div class="plenary-profile">
         <div class="plenary-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Dr. Irma Tandingan de Ley"></div>
-        <p class="plenary-name">DR. IRMA TANDINGAN DE LEY</p>
+        <p class="plenary-name">prof. wilyus wilyus</p>
         <p class="plenary-title">Associate Project Scientist, University of California Riverside</p>
     </div>
     <div class="plenary-bio">
-      <p>Dr. Tandingan de Ley is Balik Scientist, and is Associate Project Scientist at the University of California Riverside (UCR). She specializes in nematology, nematode taxonomy, systematics, phylogeny, and biological gastropods.</p>
+      <p>lorem ipsum.</p>
     </div>
   </div>
 </div>
