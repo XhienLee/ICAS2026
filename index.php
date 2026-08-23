@@ -103,12 +103,14 @@
 <div class="plenary-panel is-active" id="natural-sciences">
   <div class="plenary-card">
     <div class="plenary-profile">
-        <div class="plenary-photo"><img src="https://placehold.co/150x150?text=Photo" alt="Dr. Irma Tandingan de Ley"></div>
-        <p class="plenary-name">prof. wilyus wilyus</p>
-        <p class="plenary-title">Associate Project Scientist, University of California Riverside</p>
+        <div class="plenary-photo"><img src="speakers/wilyus.jpg" alt="Dr. Wilyus"></div>
+        <p class="plenary-name">Dr. Ir. Wilyus</p>
+        <p class="plenary-title">Academic and Researcher, Jambi University</p>
     </div>
     <div class="plenary-bio">
-      <p>lorem ipsum.</p>
+      <p>Dr. Ir. Wilyus is an academic and researcher at Jambi University, Indonesia, with expertise in Agroecotechnology, Agricultural Entomology, Integrated Pest Management (IM), Biological Control, and Sustainable Agriculture.</p>
+      <p>His research focuses on the management of important agricultural pests, particularly fall armyworm in maize and rice stem borers, with an emphasis on ecologically based and environmentally sustainable pest management strategies to enhance crop protection, productivity, and agricultural resilience.</p>
+      <p>His research has been published in various academic journals, with a complete list available through his <a href="https://orcid.org/0000-0002-4631-3868">ORCID profile</a>. He has also contributed to academic books through chapters on major pests of coconut and pests and diseases of Solanacee, as well as a reference/textbook on forest ecology. In addition, he actively contributes to the international academic community as a peer reviewer for scientific journals in agriculture, entomology, and biological sciences.</p>
     </div>
   </div>
 </div>
@@ -306,7 +308,6 @@
         </div>
     </div>
 </div>
-
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
                         Program Flow
@@ -315,7 +316,11 @@
                         </svg>
                     </button>
                     <div class="accordion-panel">
-                        <div class="accordion-panel-inner"></div>
+                        <div class="accordion-panel-inner" id="pflow">
+                            <img src="program flow/DAY 01.png">
+                            <img src="program flow/DAY 1&2.png">
+                            <img src="program flow/DAY 02.png">
+                        </div>
                     </div>
                 </div>
         </section>
@@ -386,7 +391,7 @@
             <div class="accordion-list">
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
-                        ICAS 202 Highlights
+                        ICAS 2025 Highlights
                         <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
