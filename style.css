@@ -367,7 +367,9 @@ body {
   border-bottom: 3px solid transparent;
   padding: 12px 16px;
   cursor: pointer;
-  transition: background 0.2s ease, border-color 0.2s ease;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .category-tab:hover,
@@ -431,7 +433,9 @@ body {
   color: #222;
   text-align: left;
   cursor: pointer;
-  transition: background 0.2s ease, border-color 0.2s ease;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .accordion-trigger:hover,
@@ -489,7 +493,7 @@ body {
 
 #pflow img {
   flex: 1 1 200px;
-  max-width: 31%;
+  max-width: 35%;
   height: auto;
 }
 
@@ -556,9 +560,7 @@ body {
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
-
 @media (max-width: 700px) {
-
   /* ----- Keynote + Key Information ----- */
 
   .keynote-flex-wrapper {
@@ -735,7 +737,6 @@ body {
 /* ---------- Very small screens ---------- */
 
 @media (max-width: 420px) {
-
   .brand-logo img {
     height: 28px;
   }
