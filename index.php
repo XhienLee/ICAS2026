@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICAS 2026</title>
+    <title>ICAS 2026 - International Conference on Arts and Sciences</title>
 
     <!-- Open Graph tags (Facebook link previews) -->
     <meta property="og:type" content="website">
