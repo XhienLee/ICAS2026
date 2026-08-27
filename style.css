@@ -183,7 +183,7 @@ body {
   width: 300px;
   height: 300px;
   flex-shrink: 0;
-  background: #e2e2e2;
+  background: linear-gradient(to bottom, #183e20, #295b53, #097d3c);
   border-radius: 50%;
   overflow: hidden;
   display: flex;
@@ -299,7 +299,7 @@ body {
   height: 300px;
   margin: 0 auto 10px;
   border-radius: 50%;
-  background: #e2e2e2;
+  background: linear-gradient(to bottom, #183e20, #295b53, #097d3c);
   display: flex;
   align-items: center;
   justify-content: center;
