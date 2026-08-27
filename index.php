@@ -61,7 +61,7 @@
                 <div class="keynote-card">
                     <div class="keynote-profile">
                         <div class="keynote-photo">
-                            <img src="speakers/jubilado.jpg" alt="Keynote Speaker">
+                            <img src="speakers/jubilado.png" alt="Keynote Speaker">
                         </div>
                         <p class="keynote-name">Dr. Rodney C. Jubilado</p>
                         <p class="keynote-title">University of Hawai'i - Hilo</p>
@@ -123,7 +123,7 @@
             <div class="plenary-panel is-active" id="natural-sciences">
                 <div class="plenary-card">
                     <div class="plenary-profile">
-                        <div class="plenary-photo"><img src="speakers/wilyus.jpg" alt="Dr. Wilyus"></div>
+                        <div class="plenary-photo"><img src="speakers/wilyus.png" alt="Dr. Wilyus"></div>
                         <p class="plenary-name">Dr. Ir. Wilyus</p>
                         <p class="plenary-title">Academic and Researcher, Jambi University</p>
                     </div>
