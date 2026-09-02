@@ -9,7 +9,8 @@
     <!-- Open Graph tags (Facebook link previews) -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="ICAS 2026 - International Conference on Arts and Sciences">
-    <meta property="og:description" content="Hosted by the University of Southeastern Philippines College of Arts and Sciences.">
+    <meta property="og:description"
+        content="Hosted by the University of Southeastern Philippines College of Arts and Sciences.">
     <!--
     <meta property="og:image" content="http://localhost:8080/banner.png">
     <meta property="og:url" content="https://localhost:8080/">
@@ -55,59 +56,27 @@
     </div>
 
     <main class="page-content">
-        <div class="keynote-flex-wrapper">
-            <section class="keynote-section">
-                <h2 class="section-title">Keynote Speaker</h2>
-                <div class="keynote-card">
-                    <div class="keynote-profile">
-                        <div class="keynote-photo">
-                            <img src="speakers/jubilado.png" alt="Keynote Speaker">
-                        </div>
-                        <p class="keynote-name">Dr. Rodney C. Jubilado</p>
-                        <p class="keynote-title">University of Hawai'i - Hilo</p>
+        <section class="keynote-section">
+            <h2 class="section-title">Keynote Speaker</h2>
+            <div class="keynote-card">
+                <div class="keynote-profile">
+                    <div class="keynote-photo">
+                        <img src="speakers/jubilado.png" alt="Keynote Speaker">
                     </div>
-                    <div class="keynote-bio">
-                        <p>Dr. Jubilado received his Doctor of Philosophy in Theoretical Linguistics from the National
-                            University of Malaysia and his Master of Arts in Linguistics from the University of the
-                            Philippines.</p>
-                        <p>He has presented papers in international conferences, published articles in journals, and
-                            conducted collaborative research with other scholars in Malaysia and Hawai'i. His
-                            professional interests include Theoretical Linguistics, Malay Linguistics, Philippine
-                            Linguistics, Migration Studies, Cultural Studies, ASEAN Studies, and World Englishes.</p>
-                    </div>
+                    <p class="keynote-name">Dr. Rodney C. Jubilado</p>
+                    <p class="keynote-title">University of Hawai'i - Hilo</p>
                 </div>
-            </section>
-            <aside class="key-info-panel">
-                <h3 class="key-info-heading">KEY DATES</h3>
-                <div class="key-info-list">
-                    <div class="key-info-row">
-                        <span class="key-info-label">Last Day for Abstract Submission</span>
-                        <span class="key-info-value">SEPTEMBER 18, 2026</span>
-                    </div>
-                    <div class="key-info-row">
-                        <span class="key-info-label">Notification of Acceptance</span>
-                        <span class="key-info-value">SEPTEMBER 29, 2026</span>
-                    </div>
-                    <div class="key-info-row">
-                        <span class="key-info-label">Conference Day</span>
-                        <span class="key-info-value">NOVEMBER 27-28, 2026</span>
-                    </div>
+                <div class="keynote-bio">
+                    <p>Dr. Jubilado received his Doctor of Philosophy in Theoretical Linguistics from the National
+                        University of Malaysia and his Master of Arts in Linguistics from the University of the
+                        Philippines.</p>
+                    <p>He has presented papers in international conferences, published articles in journals, and
+                        conducted collaborative research with other scholars in Malaysia and Hawai'i. His
+                        professional interests include Theoretical Linguistics, Malay Linguistics, Philippine
+                        Linguistics, Migration Studies, Cultural Studies, ASEAN Studies, and World Englishes.</p>
                 </div>
-
-                <h3 class="key-info-heading">FEES</h3>
-                <div class="key-info-list">
-                    <div class="key-info-row">
-                        <span class="key-info-label">Paper Presenter (Online)</span>
-                        <span class="key-info-value">₱ 100</span>
-                    </div>
-                    <div class="key-info-row">
-                        <span class="key-info-label">Observer-Participant (Online)</span>
-                        <span class="key-info-value">₱ 100</span>
-                    </div>
-                </div>
-                <p class="key-info-note">Participation fees inclusion: certificate</p>
-            </aside>
-        </div>
+            </div>
+        </section>
 
         <section class="plenary-section">
             <h2 class="section-title">Plenary Speakers</h2>
@@ -278,6 +247,8 @@
             </div>
         </section>
 
+        <div class="tracks-flex-wrapper">
+        <div class="tracks-left">
         <section class="accordion-section" id="about">
             <h2 class="section-title">About the Conference</h2>
             <div class="accordion-list">
@@ -449,66 +420,66 @@
         <section class="accordion-section" id="program">
             <h2 class="section-title">Program Tracks</h2>
             <div class="accordion-list">
-                <div class="accordion-item">
-                    <button class="accordion-trigger" type="button">
-                        Natural Sciences
-                        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="accordion-panel">
-                        <div class="accordion-panel-inner"></div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger" type="button">
+                            Natural Sciences
+                            <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="accordion-panel">
+                            <div class="accordion-panel-inner"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-trigger" type="button">
-                        Mathematics and Statistics
-                        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="accordion-panel">
-                        <div class="accordion-panel-inner"></div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger" type="button">
+                            Mathematics and Statistics
+                            <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="accordion-panel">
+                            <div class="accordion-panel-inner"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-trigger" type="button">
-                        Language and Literature
-                        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="accordion-panel">
-                        <div class="accordion-panel-inner"></div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger" type="button">
+                            Language and Literature
+                            <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="accordion-panel">
+                            <div class="accordion-panel-inner"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-trigger" type="button">
-                        Social Science
-                        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="accordion-panel">
-                        <div class="accordion-panel-inner"></div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger" type="button">
+                            Social Science
+                            <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="accordion-panel">
+                            <div class="accordion-panel-inner"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-trigger" type="button">
-                        Interdisciplinary Arts and Sciences Research
-                        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="accordion-panel">
-                        <div class="accordion-panel-inner"></div>
+                    <div class="accordion-item">
+                        <button class="accordion-trigger" type="button">
+                            Interdisciplinary Arts and Sciences Research
+                            <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <div class="accordion-panel">
+                            <div class="accordion-panel-inner"></div>
+                        </div>
                     </div>
-                </div>
             </div>
         </section>
 
@@ -552,6 +523,60 @@
                 </div>
             </div>
         </section>
+        </div>
+
+        <aside class="key-info-panel">
+            <h3 class="key-info-heading">KEY DATES</h3>
+            <div class="key-info-list">
+                <div class="key-info-row">
+                    <span class="key-info-label">Last Day for Abstract Submission</span>
+                    <span class="key-info-value">SEPTEMBER 18, 2026</span>
+                </div>
+                <div class="key-info-row">
+                    <span class="key-info-label">Notification of Acceptance</span>
+                    <span class="key-info-value">SEPTEMBER 29, 2026</span>
+                </div>
+                <div class="key-info-row">
+                    <span class="key-info-label">Conference Day</span>
+                    <span class="key-info-value">NOVEMBER 27-28, 2026</span>
+                </div>
+            </div>
+
+            <h3 class="key-info-heading">FEES</h3>
+            <div class="key-info-list">
+                <div class="key-info-row">
+                    <span class="key-info-label">Local Faculty / Researcher / Grad / Undergrad Student
+                        (Presenter)</span>
+                    <span class="key-info-value">Early Bird: ₱4,500 | Regular: ₱5,000</span>
+                </div>
+                <div class="key-info-row">
+                    <span class="key-info-label">Local Faculty / Researcher (Non-Presenter)</span>
+                    <span class="key-info-value">Early Bird: ₱3,000 | Regular: ₱3,500</span>
+                </div>
+                <div class="key-info-row">
+                    <span class="key-info-label">Local Graduate Student (Non-Presenter)</span>
+                    <span class="key-info-value">Early Bird: ₱2,000 | Regular: ₱2,500</span>
+                </div>
+                <div class="key-info-row">
+                    <span class="key-info-label">Local Undergraduate Student (Non-Presenter)</span>
+                    <span class="key-info-value">Early Bird: ₱1,000 | Regular: ₱1,500</span>
+                </div>
+                <div class="key-info-row">
+                    <span class="key-info-label">International Participant (On-site)</span>
+                    <span class="key-info-value">Early Bird: US$100 | Regular: US$117</span>
+                </div>
+                <div class="key-info-row">
+                    <span class="key-info-label">Local Participant (Online)</span>
+                    <span class="key-info-value">Early Bird: ₱1,000 | Regular: ₱1,500</span>
+                </div>
+                <div class="key-info-row">
+                    <span class="key-info-label">International Participant (Online)</span>
+                    <span class="key-info-value">Early Bird: US$17 | Regular: US$25</span>
+                </div>
+            </div>
+            <p class="key-info-note">Participation fees inclusion: certificate</p>
+        </aside>
+        </div>
     </main>
 
     <footer class="site-footer">

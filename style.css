@@ -165,10 +165,36 @@ body {
   min-width: 0;
 }
 
+@media (max-width: 900px) {
+  .keynote-section .section-title {
+    text-align: center;
+  }
+}
+
+/* ---------- About / Program Tracks / Outcomes shared layout ---------- */
+
+.tracks-flex-wrapper {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 400px;
+  gap: 30px;
+  align-items: start;
+}
+
+.tracks-left {
+  min-width: 0;
+}
+
+.tracks-flex-wrapper .key-info-panel {
+  position: sticky;
+  top: 20px;
+}
+
 /* ---------- Keynote speaker ---------- */
 
 .keynote-card {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 40px;
   padding: 20px;
   align-items: flex-start;
@@ -177,6 +203,7 @@ body {
 .keynote-profile {
   text-align: center;
   flex-shrink: 0;
+  margin: 0 auto;
 }
 
 .keynote-photo {
@@ -199,7 +226,8 @@ body {
 }
 
 .keynote-bio {
-  flex: 1;
+  flex: 1 1 320px;
+  min-width: 280px;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 13px;
   line-height: 1.9;
@@ -256,6 +284,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 3px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #e5e0d4;
+}
+
+.key-info-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .key-info-label {
@@ -270,14 +305,6 @@ body {
   font-size: 13px;
   font-weight: 800;
   color: #0d452a;
-}
-
-.key-info-note {
-  font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 11px;
-  line-height: 1.5;
-  color: #777;
-  margin: 0;
 }
 
 /* ---------- Plenary speakers ---------- */
@@ -563,9 +590,14 @@ body {
 @media (max-width: 700px) {
   /* ----- Keynote + Key Information ----- */
 
-  .keynote-flex-wrapper {
+  .keynote-flex-wrapper,
+  .tracks-flex-wrapper {
     grid-template-columns: 1fr;
     gap: 10px;
+  }
+
+  .tracks-flex-wrapper .key-info-panel {
+    position: static;
   }
 
   .key-info-panel {
