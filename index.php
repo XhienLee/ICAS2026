@@ -508,16 +508,12 @@
                     </button>
                     <div class="accordion-panel">
                         <div class="accordion-panel-inner" id="highlights">
-                            <img src="icas2025pubmats/pubmat1.jpg">
-                            <img src="icas2025pubmats/pubmat2.jpg">
-                            <img src="icas2025pubmats/pubmat3.jpg">
-                            <img src="icas2025pubmats/pubmat4.jpg">
-                            <img src="icas2025pubmats/pubmat5.jpg">
-                            <img src="icas2025pubmats/pubmat6.jpg">
-                            <img src="icas2025pubmats/pubmat7.jpg">
-                            <img src="icas2025pubmats/pubmat8.jpg">
-                            <img src="icas2025pubmats/pubmat9.jpg">
-                            <img src="icas2025pubmats/pubmat10.jpg">
+                            <img src="icas2025pubmats/251.jpg">
+                            <img src="icas2025pubmats/252.jpg">
+                            <img src="icas2025pubmats/253.jpg">
+                            <img src="icas2025pubmats/254.jpg">
+                            <img src="icas2025pubmats/255.jpg">
+                            <img src="icas2025pubmats/256.jpg">
                         </div>
                     </div>
                 </div>
@@ -568,7 +564,14 @@
                         </svg>
                     </button>
                     <div class="accordion-panel">
-                        <div class="accordion-panel-inner"></div>
+                        <div class="accordion-panel-inner" id="highlights">
+                            <img src="icas2022pubmats/221.jpg">
+                            <img src="icas2022pubmats/222.jpg">
+                            <img src="icas2022pubmats/223.jpg">
+                            <img src="icas2022pubmats/224.jpg">
+                            <img src="icas2022pubmats/225.jpg">
+                            <img src="icas2022pubmats/226.jpg">
+                        </div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -580,7 +583,14 @@
                         </svg>
                     </button>
                     <div class="accordion-panel">
-                        <div class="accordion-panel-inner"></div>
+                        <div class="accordion-panel-inner" id="highlights">
+                            <img src="icas2021pubmats/211.jpg">
+                            <img src="icas2021pubmats/212.jpg">
+                            <img src="icas2021pubmats/213.jpg">
+                            <img src="icas2021pubmats/214.jpg">
+                            <img src="icas2021pubmats/215.jpg">
+                            <img src="icas2021pubmats/216.jpg">
+                        </div>
                     </div>
                 </div>
             </div>
