@@ -101,12 +101,15 @@ body {
 .banner {
   width: 100%;
   line-height: 0;
+  overflow: hidden;
 }
 
 .banner img {
   width: 100%;
   height: auto;
   display: block;
+  margin-top: -2%; 
+  margin-bottom: -5%;
 }
 
 /* ---------- Keydates / Fees pill buttons ---------- */
