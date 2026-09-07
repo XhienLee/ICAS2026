@@ -511,6 +511,7 @@ body {
 #highlights img {
   flex: 1 1 200px;
   max-width: 31%;
+  align-self: center;
   height: auto;
 }
 
