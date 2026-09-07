@@ -484,8 +484,20 @@
         </section>
 
         <section class="accordion-section" id="outcomes">
-            <h2 class="section-title">Outcomes</h2>
+            <h2 class="section-title">Event Highlights</h2>
             <div class="accordion-list">
+                <div class="accordion-item">
+                    <button class="accordion-trigger" type="button">
+                        ICAS 2026 Highlights
+                        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="accordion-panel">
+                        <div class="accordion-panel-inner"></div>
+                    </div>
+                </div>
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
                         ICAS 2025 Highlights
@@ -511,7 +523,57 @@
                 </div>
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
-                        ICAS 2026 Highlights
+                        ICAS 2024 Highlights
+                        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="accordion-panel">
+                        <div class="accordion-panel-inner" id="highlights">
+                            <img src="icas2024pubmats/241.jpg">
+                            <img src="icas2024pubmats/242.jpg">
+                            <img src="icas2024pubmats/243.jpg">
+                            <img src="icas2024pubmats/244.jpg">
+                            <img src="icas2024pubmats/245.jpg">
+                            <img src="icas2024pubmats/246.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-trigger" type="button">
+                        ICAS 2023 Highlights
+                        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="accordion-panel">
+                        <div class="accordion-panel-inner" id="highlights">
+                            <img src="icas2023pubmats/231.jpg">
+                            <img src="icas2023pubmats/232.jpg">
+                            <img src="icas2023pubmats/233.jpg">
+                            <img src="icas2023pubmats/234.jpg">
+                            <img src="icas2023pubmats/235.jpg">
+                            <img src="icas2023pubmats/236.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-trigger" type="button">
+                        ICAS 2022 Highlights
+                        <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="accordion-panel">
+                        <div class="accordion-panel-inner"></div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-trigger" type="button">
+                        ICAS 2021 Highlights
                         <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" />
