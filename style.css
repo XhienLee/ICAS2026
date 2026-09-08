@@ -491,6 +491,55 @@ body {
   transition: max-height 0.25s ease;
 }
 
+/* ---------- About section quick links ---------- */
+
+.conference-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.conference-link-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  color: #222;
+  text-decoration: none;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.conference-link-btn i {
+  font-size: 16px;
+  color: #7a1416;
+}
+
+.conference-link-btn:hover {
+  background: #ccfacc;
+}
+
+@media (max-width: 700px) {
+  .conference-links {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .conference-link-btn {
+    padding: 10px 18px;
+    font-size: 12px;
+  }
+}
+
 #sdg {
   display: flex;
   justify-content: center;
