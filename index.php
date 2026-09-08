@@ -251,6 +251,16 @@
         <div class="tracks-left">
         <section class="accordion-section" id="about">
             <h2 class="section-title">About the Conference</h2>
+            <div class="conference-links">
+                <a class="conference-link-btn" href="https://www.facebook.com/share/1D6R5NtEdo/" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-facebook"></i>
+                    Facebook Page
+                </a>
+                <a class="conference-link-btn" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FEBhYoNgLqv7rxc4f8%3Ffbclid%3DIwcGRvZgVleHRuA2FlbQIxMABicmlkETF2RVJmcUZFbGJ0SFNab09Xc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHv9l0pkKeWdil748bKoaEIdNFgenUJiYZon_uyBjpUitBDwLRKulPtnXL18F_aem_u5J5U5uos8po0qlS7AZmtw&h=AUBE0f68iIkBu0YxqM5hOUh_MZ5H_U1PrJymGRE136DrO1IMEg0ppHEII01p3kgk3-ZB2hjZrAwxKWawNsykDzWhI3zNLWcjANpjjz2_gEK_Se3-m2ipKSSITKxYINFMVS9Hfw" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-google"></i>
+                    Registration Form
+                </a>
+            </div>
             <div class="accordion-list">
                 <div class="accordion-item">
                     <button class="accordion-trigger" type="button">
