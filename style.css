@@ -17,8 +17,16 @@ body {
   font-family: "Cinzel", serif;
   color: #222;
 }
-
-/* ---------- Top brand bar ---------- */
+/*
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+*/
+/*  Top brand bar  */
 
 .brand-header {
   background-color: #760000;
@@ -61,7 +69,7 @@ body {
   height: 100px;
 }
 
-/* ---------- Utility bar (social icons) ---------- */
+/*  Utility bar (social icons)  */
 
 .utility-bar {
   background: rgba(40, 40, 40, 0.9);
@@ -79,10 +87,10 @@ body {
 }
 
 .utility-bar .social-icons a {
-  color: var(--cream);
+  color: white;
   text-decoration: none;
-  width: 22px;
-  height: 22px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.15);
   display: flex;
@@ -93,10 +101,10 @@ body {
 
 .utility-bar .social-icons a:hover {
   background: white;
-  color: var(--maroon-dark);
+  color: black;
 }
 
-/* ---------- Conference banner ---------- */
+/*  Conference banner  */
 
 .banner {
   width: 100%;
@@ -112,7 +120,7 @@ body {
   margin-bottom: -5%;
 }
 
-/* ---------- Keydates / Fees pill buttons ---------- */
+/*  Keydates / Fees pill buttons  */
 
 .header-actions {
   display: flex;
@@ -140,7 +148,7 @@ body {
   background: var(--maroon-dark);
 }
 
-/* ---------- Page content wrapper ---------- */
+/*  Page content wrapper  */
 
 .page-content {
   width: 100%;
@@ -174,7 +182,7 @@ body {
   }
 }
 
-/* ---------- About / Program Tracks / Outcomes shared layout ---------- */
+/*  About / Program Tracks / Outcomes shared layout  */
 
 .tracks-flex-wrapper {
   display: grid;
@@ -192,7 +200,7 @@ body {
   top: 20px;
 }
 
-/* ---------- Keynote speaker ---------- */
+/*  Keynote speaker  */
 
 .keynote-card {
   display: flex;
@@ -235,7 +243,6 @@ body {
   font-size: 13px;
   line-height: 1.9;
   color: #444;
-  margin-top: 7%;
   text-align: justify;
 }
 
@@ -256,7 +263,7 @@ body {
   margin-top: -12px;
 }
 
-/* ---------- Key Dates / Fees ---------- */
+/*  Key Dates / Fees  */
 
 .key-info-panel {
   background: #fff;
@@ -310,7 +317,7 @@ body {
   color: #0d452a;
 }
 
-/* ---------- Plenary speakers ---------- */
+/*  Plenary speakers  */
 
 .plenary-card {
   display: flex;
@@ -375,7 +382,7 @@ body {
   background: #ccfacc;
 }
 
-/* ---------- Category tab bar ---------- */
+/*  Category tab bar  */
 
 .category-tabs {
   display: flex;
@@ -402,12 +409,16 @@ body {
     border-color 0.2s ease;
 }
 
-.category-tab:hover,
-.category-tab.is-active {
-  background: #ccfacc;
+.category-tab:hover{
+  background: #ccfacd;
 }
 
-/* ---------- Plenary panels ---------- */
+.category-tab.is-active {
+  border-bottom: 3px solid #0d452a;
+  background: #b8f0b8;
+}
+
+/*  Plenary panels  */
 
 .plenary-panel {
   display: none;
@@ -434,14 +445,19 @@ body {
   }
 }
 
-/* ---------- Accordion-style link lists ---------- */
+/*  Accordion-style link lists  */
 
 .accordion-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-
+.accordion-panel-inner.placeholder {
+  font-style: italic;
+  color: #888;
+  text-align: center;
+  padding: 24px 16px;
+}
 .accordion-item {
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -468,9 +484,11 @@ body {
     border-color 0.2s ease;
 }
 
-.accordion-trigger:hover,
-.accordion-item.is-open .accordion-trigger {
+.accordion-trigger:hover{
   background: #ccfacc;
+}
+.accordion-item.is-open .accordion-trigger {
+  background: #b8f0b8;
 }
 
 .accordion-arrow {
@@ -491,7 +509,7 @@ body {
   transition: max-height 0.25s ease;
 }
 
-/* ---------- About section quick links ---------- */
+/*  About section quick links  */
 
 .conference-links {
   display: flex;
@@ -550,14 +568,14 @@ body {
   max-width: 95%;
 }
 
-#highlights {
+.highlights-grid {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-#highlights img {
+.highlights-grid img {
   flex: 1 1 200px;
   max-width: 31%;
   align-self: center;
@@ -596,7 +614,7 @@ body {
   max-height: max-content;
 }
 
-/* ---------- Footer ---------- */
+/*  Footer  */
 
 .site-footer {
   background: #2b2b2b;
@@ -792,7 +810,7 @@ body {
     padding: 0 12px 12px;
   }
 
-  #highlights img {
+  .highlights-grid img {
     max-width: 47%;
     flex: 1 1 140px;
   }
@@ -819,7 +837,7 @@ body {
   }
 }
 
-/* ---------- Very small screens ---------- */
+/*  Very small screens  */
 
 @media (max-width: 420px) {
   .brand-logo img {
@@ -846,7 +864,7 @@ body {
     padding: 8px 10px;
   }
 
-  #highlights img {
+  .highlights-grid img {
     max-width: 100%;
     flex: 1 1 100%;
   }
