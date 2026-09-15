@@ -23,15 +23,17 @@ body {
   font-weight: bold;
   text-align: justify;
   font-size: 14px;
+  line-height: 1.5;
 }
 .inclusion {
   flex: 1 1 320px;
   min-width: 280px;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 14px;
-  line-height: 1.9;
   color: #444;
   text-align: justify;
+  line-height: 1;
+  font-weight: normal;
 }
 /*
 body {
