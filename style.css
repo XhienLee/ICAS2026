@@ -17,6 +17,22 @@ body {
   font-family: "Cinzel", serif;
   color: #222;
 }
+.key-info-note {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: green;
+  font-weight: bold;
+  text-align: justify;
+  font-size: 14px;
+}
+.inclusion {
+  flex: 1 1 320px;
+  min-width: 280px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #444;
+  text-align: justify;
+}
 /*
 body {
   background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('bg.jpg');
