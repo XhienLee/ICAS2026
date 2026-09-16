@@ -873,3 +873,15 @@ body {
     flex: 1 1 100%;
   }
 }
+
+.instant-tooltip { position: relative; }
+.instant-tooltip:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  top: 20px;
+  left: 0;
+  white-space: nowrap;
+}
