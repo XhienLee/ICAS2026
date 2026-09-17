@@ -374,7 +374,7 @@ body {
   font-size: 15px;
   line-height: 1.9;
   color: #444;
-  margin-top: 4%;
+  margin-top: 2%;
   text-align: justify;
 }
 
@@ -586,7 +586,7 @@ body {
   height: auto;
 }
 
-#pflow {
+#pflow, #partners {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -599,6 +599,11 @@ body {
   height: auto;
 }
 
+#partners img {
+  flex: 1 1 200px;
+  max-width: 45%;
+  height: auto;
+}
 .accordion-panel-inner {
   padding: 0 16px 14px;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -621,7 +626,7 @@ body {
 /*  Footer  */
 
 .site-footer {
-  background: #2b2b2b;
+  background: #660202;
   margin-top: 40px;
 }
 

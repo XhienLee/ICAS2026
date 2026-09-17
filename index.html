@@ -10,6 +10,8 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="ICAS 2026 - International Conference on Arts and Sciences">
     <meta property="og:description" content="Hosted by the University of Southeastern Philippines College of Arts and Sciences.">
+    <meta property="og:image" content="https://icas.usep.edu.ph/banner-preview.png">
+    <meta property="og:url" content="https://icas.usep.edu.ph/">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +26,7 @@
 
     <header class="brand-header">
         <div class="brand-left">
-            <div class="brand-logo"><img src="usep-logo-name-v4.jpg" alt="University of Southeastern Philippines"></div>
+            <div class="brand-logo"><img src="header.jpg" alt="University of Southeastern Philippines"></div>
         </div>
         <div class="brand-right">
             <img class="seal" src="logo/cas.png" alt="CAS Logo">
@@ -81,6 +83,9 @@
                     </p>
                 </div>
             </div>
+        </section>
+                <section class="speakers-map-section" style="padding-top: 25px;">
+            <img src="speakers/speakers_map.png" alt="ICAS 2026 Speakers Map" style="width:100%; height:auto; display:block;">
         </section>
 
         <section class="plenary-section">
@@ -465,6 +470,22 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="accordion-item">
+                            <button class="accordion-trigger" type="button">
+                                PASUC Endorsement and SPJRD Opportunities
+                                <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                            <div class="accordion-panel">
+                                <div class="accordion-panel-inner" id="partners">
+                                    <img src="partners/pasuc.png">
+                                    <img src="partners/SPJRD.png">
+                                </div>
+                            </div>
+                        </div>
                 </section>
 
                 <section class="accordion-section" id="program">
@@ -728,24 +749,30 @@
             <a href="https://usep.edu.ph/data-privacy/" target="_blank" rel="noopener" class="footer-privacy">Data Privacy Notice</a>
         </div>
     </footer>
-
-    <script>
-        document.querySelectorAll('.accordion-trigger').forEach(function (trigger) {
-            trigger.addEventListener('click', function () {
-                trigger.closest('.accordion-item').classList.toggle('is-open');
+<script>
+    document.querySelectorAll('.accordion-trigger').forEach(function (trigger) {
+        trigger.addEventListener('click', function () {
+            var currentItem = trigger.closest('.accordion-item');
+            var isOpen = currentItem.classList.contains('is-open');
+            var accordionList = currentItem.closest('.accordion-list');
+            accordionList.querySelectorAll('.accordion-item').forEach(function (item) {
+                item.classList.remove('is-open');
             });
+            if (!isOpen) {
+                currentItem.classList.add('is-open');
+            }
         });
+    });
 
-        document.querySelectorAll('.category-tab').forEach(function (tab) {
-            tab.addEventListener('click', function () {
-                document.querySelectorAll('.category-tab').forEach(function (t) { t.classList.remove('is-active'); });
-                document.querySelectorAll('.plenary-panel').forEach(function (p) { p.classList.remove('is-active'); });
-                tab.classList.add('is-active');
-                document.getElementById(tab.dataset.target).classList.add('is-active');
-            });
+    document.querySelectorAll('.category-tab').forEach(function (tab) {
+        tab.addEventListener('click', function () {
+            document.querySelectorAll('.category-tab').forEach(function (t) { t.classList.remove('is-active'); });
+            document.querySelectorAll('.plenary-panel').forEach(function (p) { p.classList.remove('is-active'); });
+            tab.classList.add('is-active');
+            document.getElementById(tab.dataset.target).classList.add('is-active');
         });
-    </script>
-
+    });
+</script>
 </body>
 
 </html>
